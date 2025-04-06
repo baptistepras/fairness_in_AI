@@ -1,4 +1,4 @@
-# Fairness_in_AI
+# Fairness in AI
 
 This project implements different pre-processing and post-processing to reduce bias in model predictions on a dataset where the goal is to define if a patient is sick or not, using a chest X-ray.
 
