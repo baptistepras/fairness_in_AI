@@ -1,0 +1,1501 @@
+Image Index,Finding Labels,Follow-up #,Patient ID,Patient Age,Patient Gender,View Position,OriginalImage[Width,Height],OriginalImagePixelSpacing[x,y],WEIGHTS,train,Labels,Age Category,Age+Gender,preds,labels,confidence
+00000008_000.png,Cardiomegaly,0,8,69,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.5829049348831177
+00000049_000.png,Nodule,0,49,91,F,PA,2650,2465,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.728922963142395
+00000061_000.png,Infiltration|Nodule,0,61,77,M,PA,3056,2500,0.139,0.139,1,False,Malade,vieux,M_vieux,malade,malade,0.6087123155593872
+00000067_000.png,Fibrosis,0,67,62,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.6184754371643066
+00000097_000.png,No Finding,0,97,83,F,PA,2021,1865,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.5960472226142883
+00000108_000.png,No Finding,0,108,42,F,PA,2048,2500,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.7124302983283997
+00000128_000.png,Cardiomegaly|Nodule,0,128,66,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.5294211506843567
+00000129_000.png,No Finding,0,129,66,F,PA,2462,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.701266348361969
+00000130_000.png,No Finding,0,130,52,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7644492387771606
+00000156_000.png,Cardiomegaly|Infiltration,0,156,81,M,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.8629363775253296
+00000170_000.png,No Finding,0,170,52,F,PA,2510,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7757750749588013
+00000210_000.png,No Finding,0,210,67,F,AP,2500,2048,0.171,0.171,1,True,Sain,vieux,F_vieux,malade,sain,0.686539888381958
+00000281_000.png,No Finding,0,281,66,F,PA,2048,2500,0.171,0.171,1,False,Sain,vieux,F_vieux,sain,sain,0.7503195405006409
+00000288_000.png,Infiltration,0,288,68,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.5517709851264954
+00000299_000.png,No Finding,0,299,65,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.8288558721542358
+00000309_000.png,No Finding,0,309,42,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.5746642351150513
+00000331_000.png,Infiltration,0,331,60,F,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.554328203201294
+00000381_000.png,Emphysema|Infiltration,0,381,51,M,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.8428834676742554
+00000384_000.png,No Finding,0,384,51,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6667584776878357
+00000411_000.png,Infiltration,0,411,78,F,PA,2658,2629,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8574317693710327
+00000420_000.png,No Finding,0,420,63,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.684478759765625
+00000421_000.png,Atelectasis,0,421,71,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.5688304901123047
+00000436_000.png,No Finding,0,436,80,F,PA,2048,2500,0.171,0.171,1,False,Sain,vieux,F_vieux,sain,sain,0.6958222389221191
+00000438_000.png,No Finding,0,438,64,M,PA,2500,2048,0.171,0.171,1,False,Sain,vieux,M_vieux,sain,sain,0.6802123785018921
+00000443_005.png,Mass,5,443,44,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.5220021605491638
+00000510_000.png,No Finding,0,510,32,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7684643864631653
+00000515_000.png,Atelectasis|Fibrosis,0,515,73,M,PA,2992,2877,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5436258316040039
+00000525_000.png,No Finding,0,525,37,M,PA,2526,2801,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5754228234291077
+00000569_000.png,Infiltration,0,569,73,F,PA,2538,2785,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.6559919118881226
+00000583_000.png,Effusion,0,583,45,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,malade,malade,0.6816986799240112
+00000602_000.png,No Finding,0,602,54,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.7072427868843079
+00000620_000.png,Infiltration,0,620,49,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.7044386863708496
+00000673_000.png,No Finding,0,673,47,F,PA,2752,2577,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5050316452980042
+00000675_000.png,No Finding,0,675,58,M,PA,2798,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.57466721534729
+00000682_001.png,Emphysema,1,682,64,F,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.5505643486976624
+00000686_000.png,Infiltration,0,686,81,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.72188401222229
+00000702_000.png,No Finding,0,702,17,F,PA,2048,2500,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.5296629071235657
+00000748_000.png,No Finding,0,748,24,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7125517129898071
+00000773_001.png,Atelectasis|Pneumonia,1,773,67,M,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,sain,malade,0.6401657462120056
+00000792_000.png,No Finding,0,792,56,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6545087099075317
+00000794_000.png,No Finding,0,794,39,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7960544228553772
+00000800_000.png,Atelectasis|Cardiomegaly,0,800,50,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.5093773007392883
+00000827_000.png,Infiltration,0,827,29,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.6198573708534241
+00000852_000.png,Atelectasis|Cardiomegaly,0,852,61,M,PA,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,malade,malade,0.661372721195221
+00000853_001.png,Infiltration|Pleural_Thickening,1,853,14,F,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,F_jeune,sain,malade,0.6572900414466858
+00000861_001.png,Atelectasis|Infiltration,1,861,62,F,AP,3056,2544,0.139,0.139,1,False,Malade,vieux,F_vieux,malade,malade,0.7158740758895874
+00000877_000.png,Atelectasis|Consolidation,0,877,40,M,PA,2544,3056,0.139,0.139,1,False,Malade,jeune,M_jeune,sain,malade,0.5820192694664001
+00000884_000.png,No Finding,0,884,35,F,PA,2620,2565,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6022221446037292
+00000889_000.png,Nodule,0,889,50,F,PA,2590,2693,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5833638310432434
+00000921_000.png,No Finding,0,921,53,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.5982422828674316
+00000954_001.png,Infiltration,1,954,62,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,sain,malade,0.6135296821594238
+00000962_000.png,No Finding,0,962,33,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8141611814498901
+00000974_000.png,No Finding,0,974,54,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.6717004776000977
+00001002_000.png,No Finding,0,1002,55,M,PA,2730,2701,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.658147394657135
+00001055_000.png,Infiltration,0,1055,24,F,PA,2334,2148,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.8226466178894043
+00001068_004.png,Infiltration,4,1068,47,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.5985832810401917
+00001072_000.png,No Finding,0,1072,12,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7383205890655518
+00001114_000.png,Pleural_Thickening,0,1114,60,M,PA,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,sain,malade,0.7654560208320618
+00001125_000.png,No Finding,0,1125,54,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.5788538455963135
+00001137_000.png,No Finding,0,1137,17,F,AP,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6712364554405212
+00001145_001.png,Atelectasis|Infiltration,1,1145,30,M,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,M_jeune,malade,malade,0.9548776745796204
+00001146_000.png,No Finding,0,1146,52,M,PA,2500,2048,0.171,0.171,1,False,Sain,vieux,M_vieux,sain,sain,0.7085997462272644
+00001164_000.png,Nodule,0,1164,24,F,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,F_jeune,sain,malade,0.8028820753097534
+00001180_000.png,No Finding,0,1180,68,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6446648240089417
+00001187_000.png,Infiltration|Pleural_Thickening,0,1187,67,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.7526695132255554
+00001189_000.png,No Finding,0,1189,60,M,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7663671970367432
+00001191_000.png,No Finding,0,1191,44,M,PA,2790,2627,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5331429839134216
+00001202_001.png,Effusion,1,1202,46,F,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,F_jeune,malade,malade,0.9053570032119752
+00001212_000.png,No Finding,0,1212,52,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7781805992126465
+00001217_000.png,No Finding,0,1217,58,F,PA,2570,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6620936989784241
+00001219_000.png,Infiltration,0,1219,55,F,PA,2476,3052,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.8086932301521301
+00001228_000.png,No Finding,0,1228,17,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7055841684341431
+00001276_000.png,No Finding,0,1276,23,M,PA,2422,2329,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.8164738416671753
+00001279_000.png,No Finding,0,1279,11,F,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6399551033973694
+00001289_000.png,Atelectasis,0,1289,58,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.6009498834609985
+00001291_000.png,No Finding,0,1291,17,M,PA,2798,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5223641991615295
+00001335_006.png,Infiltration,6,1335,23,F,PA,2992,2729,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.5704064965248108
+00001390_000.png,No Finding,0,1390,47,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8039131164550781
+00001425_000.png,No Finding,0,1425,63,M,PA,2990,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5302461385726929
+00001430_000.png,No Finding,0,1430,72,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7158542275428772
+00001466_000.png,No Finding,0,1466,82,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.6896203756332397
+00001471_000.png,No Finding,0,1471,40,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8114957809448242
+00001496_000.png,No Finding,0,1496,49,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.6624683737754822
+00001504_009.png,Edema,9,1504,70,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5117106437683105
+00001520_000.png,Cardiomegaly|Infiltration,0,1520,53,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,sain,malade,0.5305892825126648
+00001523_001.png,Infiltration,1,1523,47,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.6496402621269226
+00001538_000.png,No Finding,0,1538,16,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.789281964302063
+00001550_000.png,No Finding,0,1550,62,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7843663096427917
+00001587_000.png,No Finding,0,1587,49,F,PA,2766,2885,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7451196312904358
+00001628_000.png,Infiltration,0,1628,28,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.5366257429122925
+00001648_000.png,No Finding,0,1648,44,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5488888025283813
+00001658_000.png,No Finding,0,1658,55,F,PA,2578,2325,0.143,0.143,1,False,Sain,vieux,F_vieux,malade,sain,0.5907409191131592
+00001671_000.png,No Finding,0,1671,45,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.6152989268302917
+00001691_001.png,Atelectasis|Infiltration|Pneumonia,1,1691,45,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5899972319602966
+00001711_000.png,Atelectasis|Hernia,0,1711,77,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.6108468770980835
+00001818_000.png,Effusion,0,1818,50,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.6951307058334351
+00001833_001.png,Pleural_Thickening,1,1833,61,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.7390530705451965
+00001836_000.png,Infiltration,0,1836,42,F,AP,2500,2048,0.171,0.171,1,False,Malade,jeune,F_jeune,malade,malade,0.8531739711761475
+00001841_001.png,Effusion,1,1841,14,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.9534927606582642
+00001863_001.png,Infiltration,1,1863,43,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6523987054824829
+00001868_000.png,Cardiomegaly,0,1868,55,F,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.6070232391357422
+00001895_001.png,Atelectasis,1,1895,72,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.5377076268196106
+00001899_000.png,No Finding,0,1899,53,F,PA,2808,2874,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5801455974578857
+00001958_000.png,Consolidation,0,1958,62,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.9011352062225342
+00001994_000.png,No Finding,0,1994,41,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5429975390434265
+00002002_000.png,Atelectasis,0,2002,70,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.663494884967804
+00002028_000.png,Nodule,0,2028,68,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.5056964159011841
+00002084_000.png,Cardiomegaly,0,2084,51,M,PA,2830,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.6029207706451416
+00002101_000.png,Fibrosis,0,2101,54,M,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.5473253130912781
+00002180_000.png,No Finding,0,2180,6,M,AP,2500,2048,0.115,0.115,1,True,Sain,jeune,M_jeune,sain,sain,0.5995609164237976
+00002195_005.png,Infiltration,5,2195,47,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7857690453529358
+00002226_000.png,Fibrosis,0,2226,42,F,PA,2500,2048,0.171,0.171,1,False,Malade,jeune,F_jeune,malade,malade,0.826767086982727
+00002242_000.png,No Finding,0,2242,50,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.8195972442626953
+00002254_001.png,Atelectasis|Infiltration,1,2254,44,M,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.6568325161933899
+00002270_003.png,Consolidation|Pleural_Thickening,3,2270,65,M,PA,2670,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.554412305355072
+00002273_000.png,No Finding,0,2273,23,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.6192857623100281
+00002283_000.png,No Finding,0,2283,45,M,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,malade,sain,0.5256986021995544
+00002289_000.png,Atelectasis,0,2289,42,M,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,sain,malade,0.5003360509872437
+00002291_003.png,Infiltration,3,2291,23,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7848562598228455
+00002302_000.png,No Finding,0,2302,57,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.8539949655532837
+00002308_000.png,Infiltration,0,2308,47,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5408384203910828
+00002313_000.png,No Finding,0,2313,41,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.6668239235877991
+00002318_000.png,No Finding,0,2318,32,F,AP,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6743723750114441
+00002323_000.png,Emphysema,0,2323,66,M,PA,2958,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.6555418372154236
+00002372_000.png,No Finding,0,2372,57,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.7074914574623108
+00002373_000.png,No Finding,0,2373,54,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.6255360245704651
+00002413_000.png,Nodule,0,2413,54,M,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.7514194846153259
+00002426_000.png,Nodule,0,2426,47,F,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,F_jeune,sain,malade,0.744188129901886
+00002429_000.png,No Finding,0,2429,13,M,AP,2048,2500,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7010335922241211
+00002446_000.png,Atelectasis,0,2446,54,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.5609882473945618
+00002464_000.png,Emphysema,0,2464,53,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.9093887209892272
+00002504_000.png,Infiltration,0,2504,58,M,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,sain,malade,0.7900276780128479
+00002516_000.png,No Finding,0,2516,22,M,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.7780269384384155
+00002537_001.png,Infiltration,1,2537,38,F,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,F_jeune,malade,malade,0.8957120776176453
+00002561_000.png,No Finding,0,2561,45,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7501497268676758
+00002591_000.png,No Finding,0,2591,52,F,PA,2936,2948,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5988553762435913
+00002598_000.png,Atelectasis,0,2598,45,F,PA,2990,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.7017287015914917
+00002625_001.png,Consolidation,1,2625,43,M,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.7193061709403992
+00002710_000.png,Infiltration|Pneumothorax,0,2710,53,M,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.7931329011917114
+00002714_000.png,No Finding,0,2714,66,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.5140766501426697
+00002730_000.png,No Finding,0,2730,47,M,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.7386723160743713
+00002731_000.png,No Finding,0,2731,50,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7448445558547974
+00002771_000.png,No Finding,0,2771,73,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.7984259724617004
+00002777_000.png,Effusion|Pleural_Thickening,0,2777,58,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.7409777045249939
+00002847_000.png,No Finding,0,2847,32,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7991788387298584
+00002861_000.png,Pleural_Thickening,0,2861,51,M,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,sain,malade,0.7078450322151184
+00002869_000.png,Infiltration,0,2869,54,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,sain,malade,0.6168477535247803
+00002902_000.png,Infiltration,0,2902,52,M,PA,2992,2685,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.6329113841056824
+00002914_000.png,Emphysema,0,2914,51,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.6786653399467468
+00002935_000.png,Emphysema,0,2935,65,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7364941239356995
+00002937_000.png,No Finding,0,2937,42,F,PA,2496,2800,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7341699004173279
+00002983_000.png,Effusion|Mass,0,2983,49,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.6537634134292603
+00002995_000.png,No Finding,0,2995,9,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6591517925262451
+00003070_000.png,No Finding,0,3070,58,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7957659363746643
+00003097_000.png,Atelectasis,0,3097,44,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.6222555041313171
+00003102_000.png,No Finding,0,3102,59,M,AP,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,malade,sain,0.619332492351532
+00003125_000.png,No Finding,0,3125,56,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7088069915771484
+00003141_000.png,No Finding,0,3141,51,M,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,M_vieux,sain,sain,0.5948744416236877
+00003166_005.png,Infiltration,5,3166,18,M,PA,2544,3056,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.7647737860679626
+00003201_002.png,Infiltration,2,3201,23,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.6573998928070068
+00003202_000.png,Pleural_Thickening,0,3202,57,F,PA,2982,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.5720787644386292
+00003210_000.png,No Finding,0,3210,21,F,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.7787476778030396
+00003230_000.png,Effusion,0,3230,54,F,PA,2798,2429,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.5788742303848267
+00003235_000.png,No Finding,0,3235,50,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6663134098052979
+00003250_000.png,No Finding,0,3250,75,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.5442031025886536
+00003277_000.png,Atelectasis|Nodule,0,3277,50,M,AP,2500,2048,0.171,0.171,1,False,Malade,jeune,M_jeune,sain,malade,0.7452423572540283
+00003286_000.png,No Finding,0,3286,48,F,AP,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.512682318687439
+00003289_000.png,No Finding,0,3289,51,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.7574485540390015
+00003294_000.png,No Finding,0,3294,49,M,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.6091976761817932
+00003299_001.png,Atelectasis,1,3299,27,M,PA,2500,2048,0.171,0.171,1,False,Malade,jeune,M_jeune,malade,malade,0.6670107245445251
+00003305_000.png,No Finding,0,3305,50,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,malade,sain,0.7580156326293945
+00003312_000.png,No Finding,0,3312,58,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7089070677757263
+00003337_000.png,Effusion,0,3337,68,F,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.87392258644104
+00003342_000.png,No Finding,0,3342,33,F,PA,2048,2500,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.7738142013549805
+00003346_002.png,Infiltration,2,3346,61,F,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.6643989682197571
+00003363_003.png,Nodule,3,3363,56,F,PA,2626,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.6517471075057983
+00003366_000.png,No Finding,0,3366,33,M,PA,1960,2020,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.7609829306602478
+00003374_000.png,No Finding,0,3374,47,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7126563787460327
+00003415_000.png,No Finding,0,3415,34,F,AP,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,malade,sain,0.7780477404594421
+00003433_000.png,No Finding,0,3433,24,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.8621200919151306
+00003467_000.png,No Finding,0,3467,29,M,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.8193580508232117
+00003471_000.png,No Finding,0,3471,42,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.52989661693573
+00003504_000.png,No Finding,0,3504,6,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7824029922485352
+00003521_000.png,No Finding,0,3521,64,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.7391771078109741
+00003523_001.png,Nodule,1,3523,19,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.8093805909156799
+00003550_000.png,Nodule,0,3550,59,M,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.9235685467720032
+00003591_000.png,No Finding,0,3591,74,F,PA,2414,2549,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.601319432258606
+00003625_000.png,No Finding,0,3625,58,M,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.8557663559913635
+00003643_000.png,Pleural_Thickening,0,3643,65,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.6206895112991333
+00003651_000.png,No Finding,0,3651,28,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.6838470101356506
+00003720_000.png,Atelectasis|Mass|Nodule,0,3720,43,M,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.7945418953895569
+00003745_000.png,No Finding,0,3745,44,M,PA,2770,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5723037719726562
+00003783_000.png,No Finding,0,3783,59,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.6548993587493896
+00003794_000.png,Infiltration,0,3794,63,M,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,sain,malade,0.5260221362113953
+00003829_000.png,No Finding,0,3829,77,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7493682503700256
+00003853_000.png,No Finding,0,3853,24,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7723638415336609
+00003881_000.png,Atelectasis,0,3881,51,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.8099232316017151
+00003912_000.png,Pleural_Thickening,0,3912,32,M,AP,2500,2048,0.171,0.171,1,False,Malade,jeune,M_jeune,malade,malade,0.9073042273521424
+00003948_001.png,Nodule|Pneumothorax,1,3948,63,M,PA,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,malade,malade,0.8424696922302246
+00003987_000.png,Infiltration,0,3987,30,M,PA,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.760246753692627
+00003989_000.png,Cardiomegaly|Infiltration,0,3989,62,F,PA,2726,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.6634581685066223
+00004006_006.png,Infiltration|Mass,6,4006,31,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,malade,malade,0.9041776061058044
+00004099_000.png,No Finding,0,4099,22,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.8447818756103516
+00004104_000.png,Mass,0,4104,48,M,PA,2500,2048,0.171,0.171,1,False,Malade,jeune,M_jeune,sain,malade,0.6201481819152832
+00004116_000.png,No Finding,0,4116,49,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.6784717440605164
+00004162_000.png,No Finding,0,4162,34,M,PA,2048,2500,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.6472997069358826
+00004190_000.png,No Finding,0,4190,83,F,PA,2048,2500,0.171,0.171,1,False,Sain,vieux,F_vieux,sain,sain,0.6375495791435242
+00004214_000.png,Nodule,0,4214,53,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.6243396997451782
+00004236_000.png,No Finding,0,4236,47,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,malade,sain,0.5306548476219177
+00004242_000.png,Atelectasis|Effusion,0,4242,32,F,PA,2048,2500,0.171,0.171,1,True,Malade,jeune,F_jeune,malade,malade,0.8258118033409119
+00004287_000.png,No Finding,0,4287,7,M,AP,2500,2048,0.115,0.115,1,True,Sain,jeune,M_jeune,sain,sain,0.6002023816108704
+00004331_000.png,No Finding,0,4331,19,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.8195474147796631
+00004341_000.png,No Finding,0,4341,26,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.8111173510551453
+00004429_000.png,No Finding,0,4429,55,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.6580554246902466
+00004446_000.png,No Finding,0,4446,44,M,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.8351283073425293
+00004463_000.png,Atelectasis,0,4463,55,F,AP,2500,2048,0.171,0.171,1,False,Malade,vieux,F_vieux,malade,malade,0.8853051662445068
+00004484_000.png,No Finding,0,4484,64,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.7542080879211426
+00004539_000.png,Atelectasis,0,4539,42,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.5675107836723328
+00004544_002.png,Edema|Infiltration,2,4544,47,M,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,M_jeune,malade,malade,0.6090511083602905
+00004568_000.png,Atelectasis,0,4568,47,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.5972996950149536
+00004585_000.png,No Finding,0,4585,34,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.55648273229599
+00004593_000.png,No Finding,0,4593,39,F,AP,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6008543372154236
+00004603_000.png,Atelectasis|Infiltration|Nodule,0,4603,58,M,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.7566303610801697
+00004611_000.png,Atelectasis,0,4611,23,F,PA,2048,2500,0.171,0.171,1,False,Malade,jeune,F_jeune,sain,malade,0.634158730506897
+00004633_000.png,No Finding,0,4633,41,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.8066942095756531
+00004685_000.png,No Finding,0,4685,61,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6049515008926392
+00004709_000.png,No Finding,0,4709,49,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.6021407246589661
+00004713_000.png,No Finding,0,4713,33,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6867131590843201
+00004715_000.png,No Finding,0,4715,57,F,PA,2048,2500,0.171,0.171,1,False,Sain,vieux,F_vieux,sain,sain,0.6201518774032593
+00004750_000.png,Pleural_Thickening,0,4750,77,F,PA,2048,2500,0.171,0.171,1,False,Malade,vieux,F_vieux,malade,malade,0.6485351920127869
+00004757_000.png,No Finding,0,4757,55,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.6312240362167358
+00004877_000.png,No Finding,0,4877,53,M,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.8611094355583191
+00004923_000.png,No Finding,0,4923,50,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.8408025503158569
+00004932_000.png,No Finding,0,4932,35,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7064735889434814
+00004934_000.png,No Finding,0,4934,13,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7693659067153931
+00004956_000.png,No Finding,0,4956,13,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7682257890701294
+00004961_000.png,Nodule,0,4961,58,M,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.9400333166122437
+00004964_000.png,No Finding,0,4964,17,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7133644223213196
+00005011_000.png,Atelectasis|Pneumonia,0,5011,79,M,PA,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,sain,malade,0.7530166506767273
+00005022_000.png,No Finding,0,5022,58,M,AP,2500,2048,0.171,0.171,1,False,Sain,vieux,M_vieux,sain,sain,0.7381452918052673
+00005078_000.png,No Finding,0,5078,47,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,malade,sain,0.5117772221565247
+00005081_005.png,Infiltration,5,5081,51,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.7182655930519104
+00005131_003.png,Effusion|Infiltration,3,5131,64,F,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.5503197908401489
+00005179_000.png,Atelectasis|Effusion,0,5179,62,F,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.9245525598526
+00005227_000.png,No Finding,0,5227,47,M,AP,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.637865424156189
+00005249_000.png,Cardiomegaly,0,5249,70,M,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,M_vieux,malade,malade,0.650138795375824
+00005271_002.png,Nodule,2,5271,40,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.5136508941650391
+00005281_000.png,No Finding,0,5281,55,M,AP,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.6952287554740906
+00005321_001.png,Atelectasis|Effusion,1,5321,50,M,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.8019471764564514
+00005327_004.png,Infiltration,4,5327,46,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.7438034415245056
+00005356_000.png,No Finding,0,5356,61,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.5132234692573547
+00005430_000.png,No Finding,0,5430,46,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.7970916032791138
+00005452_000.png,Atelectasis,0,5452,44,M,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.6455639004707336
+00005490_001.png,Atelectasis|Consolidation|Pneumothorax,1,5490,38,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,sain,malade,0.6453059315681458
+00005496_000.png,No Finding,0,5496,26,F,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6555954813957214
+00005534_000.png,No Finding,0,5534,70,M,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.7971975803375244
+00005535_000.png,No Finding,0,5535,34,F,PA,2048,2500,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.8037126064300537
+00005552_000.png,No Finding,0,5552,69,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,malade,sain,0.8505534529685974
+00005580_000.png,No Finding,0,5580,53,F,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7298977971076965
+00005611_000.png,Fibrosis,0,5611,46,M,PA,2544,3056,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.7183910012245178
+00005637_000.png,No Finding,0,5637,40,M,AP,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.5953348278999329
+00005641_000.png,Cardiomegaly,0,5641,31,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.7840782999992371
+00005643_003.png,Atelectasis,3,5643,55,M,AP,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,malade,malade,0.6867020726203918
+00005689_000.png,Cardiomegaly,0,5689,58,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,malade,malade,0.59272301197052
+00005731_000.png,No Finding,0,5731,73,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.7603458166122437
+00005735_000.png,No Finding,0,5735,34,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.841149628162384
+00005766_002.png,Infiltration,2,5766,72,F,PA,2048,2500,0.171,0.171,1,False,Malade,vieux,F_vieux,sain,malade,0.6206218004226685
+00005811_001.png,Emphysema,1,5811,75,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.7172784805297852
+00005853_000.png,Emphysema|Mass,0,5853,53,M,PA,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,malade,malade,0.7126497030258179
+00005877_000.png,Infiltration,0,5877,4,F,AP,2500,2048,0.171,0.171,1,False,Malade,jeune,F_jeune,malade,malade,0.7089047431945801
+00005903_000.png,No Finding,0,5903,64,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.6612899899482727
+00005921_000.png,No Finding,0,5921,32,F,PA,2048,2500,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.7730211019515991
+00005934_000.png,No Finding,0,5934,76,F,PA,2500,2048,0.171,0.171,1,False,Sain,vieux,F_vieux,malade,sain,0.5255948305130005
+00005950_000.png,Mass,0,5950,63,F,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.5460734367370605
+00005959_000.png,No Finding,0,5959,44,F,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.5660772919654846
+00005961_000.png,No Finding,0,5961,31,F,PA,2610,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6599327325820923
+00006005_000.png,No Finding,0,6005,35,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.6815868616104126
+00006023_000.png,No Finding,0,6023,59,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.8472047448158264
+00006048_000.png,No Finding,0,6048,22,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.8733853697776794
+00006103_000.png,Infiltration,0,6103,49,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,sain,malade,0.5722908973693848
+00006118_000.png,No Finding,0,6118,63,F,PA,2634,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7154248952865601
+00006126_000.png,No Finding,0,6126,57,F,PA,2264,2608,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.523859441280365
+00006130_000.png,Atelectasis,0,6130,68,M,AP,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,malade,malade,0.5666166543960571
+00006174_000.png,Pleural_Thickening,0,6174,63,F,PA,2048,2500,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.7361928224563599
+00006226_000.png,No Finding,0,6226,60,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.6413675546646118
+00006240_000.png,No Finding,0,6240,47,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7640753984451294
+00006250_000.png,No Finding,0,6250,64,F,PA,2048,2500,0.171,0.171,1,True,Sain,vieux,F_vieux,sain,sain,0.7102800011634827
+00006256_000.png,No Finding,0,6256,40,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.8531535267829895
+00006270_000.png,Atelectasis,0,6270,48,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6915476322174072
+00006288_000.png,Nodule,0,6288,46,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.7205308079719543
+00006339_002.png,Cardiomegaly,2,6339,34,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.908781349658966
+00006363_000.png,No Finding,0,6363,23,M,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.8566323518753052
+00006425_001.png,Nodule,1,6425,49,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,malade,malade,0.562349259853363
+00006451_004.png,Infiltration,4,6451,51,F,PA,2978,2689,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5658007860183716
+00006457_000.png,No Finding,0,6457,57,M,AP,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,malade,sain,0.5085622668266296
+00006461_000.png,No Finding,0,6461,55,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.8144682049751282
+00006480_001.png,Nodule,1,6480,46,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.8446741700172424
+00006517_001.png,Consolidation,1,6517,45,F,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,F_jeune,sain,malade,0.6014180779457092
+00006533_000.png,No Finding,0,6533,37,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7646600008010864
+00006535_001.png,Pleural_Thickening,1,6535,36,M,PA,2048,2500,0.171,0.171,1,False,Malade,jeune,M_jeune,sain,malade,0.7700523734092712
+00006559_000.png,No Finding,0,6559,70,M,AP,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.711956262588501
+00006560_000.png,No Finding,0,6560,7,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.8634878993034363
+00006568_000.png,No Finding,0,6568,20,F,AP,2500,2048,0.168,0.168,1,False,Sain,jeune,F_jeune,malade,sain,0.619554877281189
+00006589_000.png,No Finding,0,6589,61,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.8546271324157715
+00006601_000.png,Mass,0,6601,58,F,PA,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,sain,malade,0.5388476848602295
+00006608_000.png,No Finding,0,6608,37,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7687939405441284
+00006619_000.png,No Finding,0,6619,19,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7212172746658325
+00006636_000.png,No Finding,0,6636,41,M,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7415949702262878
+00006644_000.png,No Finding,0,6644,28,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.7780224680900574
+00006655_000.png,No Finding,0,6655,39,F,AP,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.5317448973655701
+00006689_000.png,Atelectasis,0,6689,52,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5527394413948059
+00006748_000.png,No Finding,0,6748,41,F,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6097208857536316
+00006871_000.png,No Finding,0,6871,45,F,PA,2500,2048,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6442671418190002
+00006881_002.png,Nodule,2,6881,53,F,PA,2048,2500,0.168,0.168,1,False,Malade,vieux,F_vieux,sain,malade,0.8666905164718628
+00006896_000.png,No Finding,0,6896,9,M,AP,2048,2500,0.171,0.171,1,False,Sain,jeune,M_jeune,sain,sain,0.7517450451850891
+00006901_000.png,No Finding,0,6901,31,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6275566220283508
+00006917_000.png,No Finding,0,6917,2,M,AP,2048,2500,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7451096773147583
+00006939_000.png,No Finding,0,6939,67,F,PA,2048,2500,0.171,0.171,1,False,Sain,vieux,F_vieux,sain,sain,0.7619941830635071
+00006948_001.png,Mass,1,6948,50,F,AP,2500,2048,0.171,0.171,1,True,Malade,jeune,F_jeune,malade,malade,0.7140811681747437
+00006953_000.png,Effusion,0,6953,46,M,PA,2500,2048,0.171,0.171,1,True,Malade,jeune,M_jeune,sain,malade,0.6196625232696533
+00006974_000.png,No Finding,0,6974,36,F,PA,2500,2048,0.171,0.171,1,False,Sain,jeune,F_jeune,sain,sain,0.8016870617866516
+00006993_004.png,Atelectasis|Infiltration,4,6993,56,M,AP,2500,2048,0.171,0.171,1,False,Malade,vieux,M_vieux,malade,malade,0.8087800145149231
+00007034_000.png,Infiltration|Pleural_Thickening,0,7034,28,F,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,F_jeune,malade,malade,0.9575021266937256
+00007064_001.png,Pneumothorax,1,7064,78,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.7026920914649963
+00007077_000.png,No Finding,0,7077,47,M,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.7734582424163818
+00007098_000.png,No Finding,0,7098,48,F,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,F_jeune,sain,sain,0.6983753442764282
+00007119_000.png,No Finding,0,7119,29,F,PA,2766,2621,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7205606698989868
+00007133_000.png,Atelectasis|Emphysema|Infiltration,0,7133,50,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.7139805555343628
+00007200_000.png,No Finding,0,7200,53,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.565741777420044
+00007218_000.png,Effusion,0,7218,50,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,malade,malade,0.6402167677879333
+00007260_000.png,No Finding,0,7260,77,M,PA,2500,2048,0.171,0.171,1,True,Sain,vieux,M_vieux,sain,sain,0.737625002861023
+00007267_000.png,No Finding,0,7267,42,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7595295906066895
+00007270_000.png,No Finding,0,7270,52,M,PA,2500,2048,0.171,0.171,1,False,Sain,vieux,M_vieux,sain,sain,0.7846307158470154
+00007275_000.png,No Finding,0,7275,43,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7844935059547424
+00007292_001.png,Infiltration,1,7292,41,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.929419755935669
+00007375_000.png,No Finding,0,7375,33,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.7544021010398865
+00007383_000.png,No Finding,0,7383,57,M,AP,2048,2500,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7527945637702942
+00007386_000.png,No Finding,0,7386,65,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,malade,sain,0.6367548704147339
+00007404_000.png,Consolidation|Edema,0,7404,64,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,malade,malade,0.7908664345741272
+00007443_000.png,No Finding,0,7443,51,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7196360230445862
+00007448_000.png,Pleural_Thickening,0,7448,70,F,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.5538715124130249
+00007459_000.png,Pneumothorax,0,7459,42,F,PA,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,sain,malade,0.8285022974014282
+00007510_000.png,Cardiomegaly,0,7510,75,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.6168906688690186
+00007512_003.png,Infiltration,3,7512,20,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.6933969855308533
+00007559_000.png,Cardiomegaly|Emphysema,0,7559,74,F,AP,2500,2048,0.171,0.171,1,True,Malade,vieux,F_vieux,malade,malade,0.8554049134254456
+00007573_000.png,No Finding,0,7573,42,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8213608860969543
+00007581_000.png,No Finding,0,7581,54,F,AP,2500,2048,0.171,0.171,1,True,Sain,vieux,F_vieux,malade,sain,0.5864070653915405
+00007639_000.png,No Finding,0,7639,37,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.6203374862670898
+00007647_000.png,No Finding,0,7647,43,F,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.7591511607170105
+00007659_000.png,Cardiomegaly|Effusion|Pleural_Thickening,0,7659,66,F,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.8091958165168762
+00007670_000.png,Nodule|Pleural_Thickening,0,7670,46,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.7683318257331848
+00007708_006.png,Atelectasis|Consolidation|Effusion,6,7708,30,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.858697235584259
+00007718_000.png,Effusion,0,7718,59,F,PA,2048,2500,0.168,0.168,1,False,Malade,vieux,F_vieux,sain,malade,0.5826728940010071
+00007741_000.png,No Finding,0,7741,44,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7690607905387878
+00007745_003.png,Pneumothorax,3,7745,30,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.6277352571487427
+00007763_000.png,No Finding,0,7763,41,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8173388838768005
+00007764_000.png,Pleural_Thickening,0,7764,58,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.7161256074905396
+00007772_000.png,Effusion|Mass,0,7772,67,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.5262162089347839
+00007776_000.png,Cardiomegaly|Nodule,0,7776,56,F,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.6934369802474976
+00007788_000.png,No Finding,0,7788,64,M,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,M_vieux,sain,sain,0.8406624794006348
+00007809_000.png,No Finding,0,7809,32,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8320392966270447
+00007854_000.png,No Finding,0,7854,32,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7676191329956055
+00007881_000.png,No Finding,0,7881,43,F,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7515996098518372
+00007885_000.png,Pleural_Thickening,0,7885,59,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.8371749520301819
+00007944_001.png,Atelectasis,1,7944,58,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.9405972957611084
+00007958_000.png,No Finding,0,7958,37,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8211379051208496
+00007984_000.png,No Finding,0,7984,52,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.8910846710205078
+00007986_000.png,No Finding,0,7986,7,F,AP,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8104398846626282
+00007990_005.png,Atelectasis,5,7990,49,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.5974596738815308
+00008005_004.png,Atelectasis|Infiltration,4,8005,62,F,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.6628795266151428
+00008008_000.png,Nodule,0,8008,19,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.7098138332366943
+00008029_001.png,Infiltration,1,8029,19,F,PA,2048,2500,0.168,0.168,1,False,Malade,jeune,F_jeune,sain,malade,0.7097845077514648
+00008081_001.png,Atelectasis,1,8081,57,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.853844940662384
+00008096_000.png,Cardiomegaly,0,8096,58,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.6830478310585022
+00008115_000.png,No Finding,0,8115,54,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7403882145881653
+00008140_000.png,No Finding,0,8140,31,M,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.855168342590332
+00008142_000.png,No Finding,0,8142,23,M,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.8863867521286011
+00008144_000.png,No Finding,0,8144,60,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.5548372864723206
+00008179_000.png,No Finding,0,8179,50,F,AP,2500,2048,0.168,0.168,1,False,Sain,jeune,F_jeune,malade,sain,0.830826461315155
+00008216_000.png,Pleural_Thickening,0,8216,57,M,PA,2670,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6203886270523071
+00008272_000.png,No Finding,0,8272,39,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,malade,sain,0.5112830400466919
+00008284_001.png,Infiltration,1,8284,41,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5876384377479553
+00008299_001.png,Atelectasis|Fibrosis,1,8299,50,F,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.5344305038452148
+00008371_001.png,Mass|Nodule,1,8371,74,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.5702535510063171
+00008378_000.png,No Finding,0,8378,50,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8106539249420166
+00008405_000.png,No Finding,0,8405,27,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.6809462308883667
+00008432_000.png,Nodule,0,8432,48,F,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.5854288935661316
+00008443_000.png,No Finding,0,8443,42,F,PA,2750,2757,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8660292029380798
+00008468_002.png,Consolidation,2,8468,9,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.6778714656829834
+00008506_000.png,No Finding,0,8506,28,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.8085212111473083
+00008531_000.png,No Finding,0,8531,41,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7921562194824219
+00008540_000.png,Infiltration,0,8540,59,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5383565425872803
+00008559_000.png,No Finding,0,8559,69,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7765281200408936
+00008587_000.png,No Finding,0,8587,44,F,PA,2654,2717,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.5193340182304382
+00008595_000.png,No Finding,0,8595,28,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.6287116408348083
+00008604_000.png,No Finding,0,8604,7,M,AP,2048,2500,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.6850393414497375
+00008614_000.png,No Finding,0,8614,24,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.6710885763168335
+00008629_000.png,No Finding,0,8629,41,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7617387175559998
+00008671_000.png,Infiltration|Nodule,0,8671,60,F,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.7947180271148682
+00008690_000.png,No Finding,0,8690,60,F,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,F_vieux,sain,sain,0.6174461245536804
+00008692_001.png,Nodule,1,8692,25,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.6654196977615356
+00008710_000.png,Nodule,0,8710,50,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.826920747756958
+00008717_000.png,No Finding,0,8717,57,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7938446998596191
+00008732_000.png,Nodule,0,8732,73,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.7872263193130493
+00008745_002.png,Infiltration,2,8745,45,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.7055519819259644
+00008746_000.png,Mass,0,8746,73,M,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.7970470786094666
+00008796_000.png,No Finding,0,8796,55,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.8153727054595947
+00008801_000.png,No Finding,0,8801,27,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.763008177280426
+00008805_000.png,No Finding,0,8805,61,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.5076413154602051
+00008807_000.png,Mass,0,8807,50,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.8345555663108826
+00008809_000.png,Infiltration,0,8809,56,F,PA,2544,3056,0.139,0.139,1,False,Malade,vieux,F_vieux,sain,malade,0.8041802644729614
+00008812_000.png,No Finding,0,8812,41,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.6129427552223206
+00008820_000.png,No Finding,0,8820,48,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.5125329494476318
+00008821_000.png,No Finding,0,8821,56,M,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,M_vieux,sain,sain,0.7088695764541626
+00008827_000.png,Atelectasis|Effusion,0,8827,77,M,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.801278829574585
+00008859_000.png,No Finding,0,8859,35,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7963630557060242
+00008860_000.png,No Finding,0,8860,38,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7430242300033569
+00008861_000.png,Cardiomegaly,0,8861,49,M,PA,2500,2048,0.168,0.168,1,False,Malade,jeune,M_jeune,sain,malade,0.6336175799369812
+00008918_000.png,No Finding,0,8918,55,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7675614953041077
+00008936_000.png,No Finding,0,8936,60,M,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,M_vieux,sain,sain,0.8030825853347778
+00008954_000.png,No Finding,0,8954,40,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5519034266471863
+00008961_000.png,No Finding,0,8961,40,F,PA,2978,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.6938303112983704
+00008977_000.png,No Finding,0,8977,43,M,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.8042823076248169
+00008985_000.png,No Finding,0,8985,68,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7442850470542908
+00009026_000.png,No Finding,0,9026,41,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7575501203536987
+00009030_000.png,Cardiomegaly|Consolidation|Nodule,0,9030,35,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,sain,malade,0.5397825241088867
+00009031_000.png,Atelectasis,0,9031,55,M,PA,2314,2550,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7678812146186829
+00009062_000.png,No Finding,0,9062,35,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8633043766021729
+00009068_000.png,No Finding,0,9068,49,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.8149492144584656
+00009072_000.png,No Finding,0,9072,59,M,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6956269145011902
+00009108_000.png,No Finding,0,9108,52,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.7919758558273315
+00009117_000.png,Atelectasis,0,9117,23,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.5415112376213074
+00009148_000.png,No Finding,0,9148,49,M,PA,2550,2577,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.558209240436554
+00009176_000.png,No Finding,0,9176,54,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6728489995002747
+00009219_000.png,No Finding,0,9219,50,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.782816469669342
+00009221_000.png,No Finding,0,9221,42,F,PA,2894,2545,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.7767540812492371
+00009227_000.png,Mass|Pneumothorax,0,9227,49,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.682745099067688
+00009285_000.png,No Finding,0,9285,42,M,PA,2422,2709,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.7648841142654419
+00009286_000.png,Consolidation|Pleural_Thickening,0,9286,58,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.6769927144050598
+00009310_000.png,No Finding,0,9310,67,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.7579084634780884
+00009333_005.png,Effusion,5,9333,62,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.7972815036773682
+00009358_001.png,Pleural_Thickening,1,9358,63,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.7431450486183167
+00009372_000.png,No Finding,0,9372,42,F,AP,2500,2048,0.168,0.168,1,False,Sain,jeune,F_jeune,malade,sain,0.6028709411621094
+00009386_003.png,Edema|Effusion|Infiltration|Pneumonia,3,9386,31,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,malade,malade,0.928918719291687
+00009435_000.png,No Finding,0,9435,54,M,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,M_vieux,sain,sain,0.7319746613502502
+00009437_000.png,Nodule|Pleural_Thickening,0,9437,42,F,PA,2630,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.525529146194458
+00009449_001.png,Emphysema,1,9449,51,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.6736264228820801
+00009488_000.png,Pleural_Thickening,0,9488,58,F,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.6926944255828857
+00009490_000.png,Effusion|Infiltration,0,9490,29,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.5597630739212036
+00009494_000.png,Atelectasis|Nodule,0,9494,70,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.6960306167602539
+00009502_000.png,Effusion|Infiltration,0,9502,9,M,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.5254465937614441
+00009520_004.png,Atelectasis,4,9520,49,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6340291500091553
+00009523_001.png,Effusion|Infiltration,1,9523,27,M,PA,2878,2641,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.9103713035583496
+00009524_000.png,Atelectasis|Pneumonia,0,9524,72,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,sain,malade,0.7176403403282166
+00009542_000.png,Atelectasis|Fibrosis|Infiltration|Nodule,0,9542,40,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.8170564770698547
+00009570_000.png,No Finding,0,9570,26,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,malade,sain,0.7787468433380127
+00009592_000.png,Consolidation|Effusion|Mass,0,9592,26,M,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,M_jeune,malade,malade,0.859706699848175
+00009602_001.png,Atelectasis,1,9602,48,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.55205899477005
+00009606_000.png,Atelectasis,0,9606,47,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.561271607875824
+00009641_001.png,Pleural_Thickening,1,9641,25,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.8374556303024292
+00009696_000.png,Pneumothorax,0,9696,17,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.72127765417099
+00009702_000.png,Mass,0,9702,60,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.6541638970375061
+00009705_000.png,Atelectasis|Cardiomegaly,0,9705,54,F,PA,2778,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7439428567886353
+00009744_000.png,No Finding,0,9744,41,F,PA,2538,2533,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.517473042011261
+00009748_000.png,No Finding,0,9748,42,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5855666399002075
+00009756_000.png,No Finding,0,9756,48,F,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,F_jeune,malade,sain,0.5004730820655823
+00009780_000.png,No Finding,0,9780,20,F,PA,2538,2249,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5821282863616943
+00009784_000.png,No Finding,0,9784,66,F,PA,2048,2500,0.168,0.168,1,False,Sain,vieux,F_vieux,sain,sain,0.744668185710907
+00009790_000.png,No Finding,0,9790,27,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8272125124931335
+00009791_000.png,No Finding,0,9791,50,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.7352299690246582
+00009793_000.png,No Finding,0,9793,47,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5210419297218323
+00009805_001.png,Effusion|Pleural_Thickening,1,9805,51,F,PA,2936,2897,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.843521237373352
+00009807_000.png,No Finding,0,9807,52,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,malade,sain,0.5406972169876099
+00009815_000.png,Fibrosis,0,9815,78,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.5646268129348755
+00009844_000.png,No Finding,0,9844,78,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.5891059041023254
+00009869_000.png,No Finding,0,9869,59,F,PA,2466,2421,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.6844202280044556
+00009906_000.png,No Finding,0,9906,32,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7115908861160278
+00009908_001.png,Cardiomegaly|Effusion,1,9908,22,F,PA,2990,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,malade,malade,0.7112668752670288
+00009911_003.png,Atelectasis,3,9911,48,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.856181800365448
+00009926_000.png,No Finding,0,9926,58,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.6065433025360107
+00009930_000.png,No Finding,0,9930,8,F,AP,1980,2436,0.139,0.139,1,False,Sain,jeune,F_jeune,sain,sain,0.6899799704551697
+00009952_000.png,No Finding,0,9952,44,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.7244950532913208
+00009966_000.png,Atelectasis|Pneumonia,0,9966,48,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5474619269371033
+00009974_005.png,Atelectasis,5,9974,61,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.542563259601593
+00010000_000.png,Atelectasis|Infiltration,0,10000,39,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.534661591053009
+00010029_000.png,No Finding,0,10029,46,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.8140760660171509
+00010041_000.png,No Finding,0,10041,64,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.5296103954315186
+00010044_001.png,Atelectasis,1,10044,62,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.593105137348175
+00010083_000.png,Mass,0,10083,64,F,PA,2048,2500,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.8176109790802002
+00010084_000.png,No Finding,0,10084,45,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.722905158996582
+00010097_005.png,Consolidation,5,10097,40,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.5999181270599365
+00010102_000.png,No Finding,0,10102,52,M,PA,2500,2048,0.168,0.168,1,False,Sain,vieux,M_vieux,sain,sain,0.7730000615119934
+00010139_000.png,No Finding,0,10139,30,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5083868503570557
+00010142_002.png,Infiltration,2,10142,80,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.8566612005233765
+00010161_001.png,Atelectasis,1,10161,41,M,PA,2622,2497,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7729862928390503
+00010189_000.png,No Finding,0,10189,52,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7858747839927673
+00010206_000.png,Fibrosis,0,10206,60,F,PA,2438,2545,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5895293354988098
+00010221_000.png,No Finding,0,10221,40,M,PA,2738,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5898016691207886
+00010229_000.png,No Finding,0,10229,70,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.6113279461860657
+00010253_000.png,No Finding,0,10253,23,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5826094150543213
+00010260_000.png,No Finding,0,10260,83,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.8787701725959778
+00010273_000.png,No Finding,0,10273,15,M,PA,2334,2049,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.6285752058029175
+00010286_000.png,No Finding,0,10286,45,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.529746949672699
+00010290_000.png,No Finding,0,10290,59,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.8896824717521667
+00010303_000.png,No Finding,0,10303,53,M,PA,2986,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.5743284821510315
+00010428_002.png,Infiltration|Nodule,2,10428,75,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,malade,malade,0.8012390732765198
+00010432_000.png,No Finding,0,10432,50,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7795881032943726
+00010438_001.png,Infiltration|Nodule|Pleural_Thickening,1,10438,70,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.929841935634613
+00010453_000.png,No Finding,0,10453,27,F,PA,2730,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7665395736694336
+00010518_000.png,Mass|Nodule,0,10518,51,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.7912665009498596
+00010558_000.png,No Finding,0,10558,33,M,PA,2530,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.502094566822052
+00010594_001.png,Nodule,1,10594,24,F,PA,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.6300933361053467
+00010595_000.png,Effusion,0,10595,79,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.7608160376548767
+00010630_002.png,Infiltration,2,10630,47,F,PA,2522,2729,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.6839087009429932
+00010633_000.png,No Finding,0,10633,59,F,PA,2574,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.6700814962387085
+00010636_000.png,No Finding,0,10636,27,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5805711150169373
+00010642_000.png,No Finding,0,10642,40,F,AP,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,malade,sain,0.525623619556427
+00010671_000.png,No Finding,0,10671,61,M,PA,2798,2769,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.5278346538543701
+00010674_003.png,Infiltration,3,10674,56,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5968780517578125
+00010686_000.png,Pleural_Thickening,0,10686,77,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,malade,malade,0.7724065780639648
+00010700_001.png,Infiltration,1,10700,48,F,PA,2826,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.7140577435493469
+00010729_003.png,Pneumothorax,3,10729,24,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.63686203956604
+00010730_000.png,No Finding,0,10730,47,F,PA,2678,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6942903995513916
+00010735_000.png,No Finding,0,10735,66,M,PA,2626,2765,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.6481675505638123
+00010741_001.png,Atelectasis|Nodule,1,10741,81,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.779374361038208
+00010743_000.png,No Finding,0,10743,54,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6708689332008362
+00010803_000.png,No Finding,0,10803,27,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5637766718864441
+00010824_001.png,Edema,1,10824,60,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.8484255075454712
+00010834_000.png,Effusion,0,10834,63,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.7094109654426575
+00010835_000.png,No Finding,0,10835,56,F,PA,2048,2500,0.168,0.168,1,False,Sain,vieux,F_vieux,sain,sain,0.5636880397796631
+00010849_000.png,Consolidation,0,10849,66,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7747958898544312
+00010857_000.png,No Finding,0,10857,14,M,PA,2142,2525,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6034270524978638
+00010871_000.png,Effusion,0,10871,73,M,PA,2992,2721,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6425960659980774
+00010898_000.png,No Finding,0,10898,38,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8193281292915344
+00010903_000.png,Infiltration,0,10903,71,F,PA,2662,2721,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.6262430548667908
+00010915_000.png,No Finding,0,10915,72,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.7404894828796387
+00010916_000.png,Emphysema|Infiltration,0,10916,67,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.7962604761123657
+00010963_000.png,No Finding,0,10963,73,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.5086407661437988
+00010980_000.png,Nodule,0,10980,51,M,PA,2970,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.744960606098175
+00010983_000.png,No Finding,0,10983,70,F,PA,2442,2745,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7409388422966003
+00011052_000.png,Cardiomegaly,0,11052,48,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5758675932884216
+00011098_000.png,No Finding,0,11098,44,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.5609198212623596
+00011172_000.png,No Finding,0,11172,47,F,PA,2516,2558,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6738739609718323
+00011193_004.png,Nodule,4,11193,55,F,PA,2610,2941,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.6339964866638184
+00011230_001.png,Effusion,1,11230,26,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.9280954003334044
+00011263_000.png,Cardiomegaly,0,11263,44,M,PA,2882,2785,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.7309849858283997
+00011267_000.png,No Finding,0,11267,56,F,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.635960042476654
+00011297_000.png,No Finding,0,11297,48,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5770722031593323
+00011301_000.png,Cardiomegaly,0,11301,77,F,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.7228463292121887
+00011335_000.png,No Finding,0,11335,24,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7745041251182556
+00011341_000.png,No Finding,0,11341,59,M,PA,2986,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5932563543319702
+00011343_000.png,Emphysema,0,11343,64,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.7320465445518494
+00011390_000.png,No Finding,0,11390,35,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.738510012626648
+00011400_000.png,No Finding,0,11400,15,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.634202778339386
+00011408_000.png,No Finding,0,11408,24,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.7764930129051208
+00011436_000.png,Mass|Pleural_Thickening,0,11436,54,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,malade,malade,0.7755395174026489
+00011451_000.png,No Finding,0,11451,44,F,PA,2678,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6499615907669067
+00011488_000.png,No Finding,0,11488,50,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7661571502685547
+00011507_000.png,Cardiomegaly,0,11507,45,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7943289875984192
+00011520_000.png,No Finding,0,11520,48,M,PA,2992,2681,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5291677117347717
+00011521_000.png,Mass,0,11521,61,M,PA,2992,2829,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6641011238098145
+00011532_000.png,No Finding,0,11532,40,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.6657660007476807
+00011596_002.png,Atelectasis|Infiltration|Mass,2,11596,66,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.8290340900421143
+00011613_000.png,No Finding,0,11613,13,F,PA,2554,2597,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7332603335380554
+00011624_005.png,Infiltration,5,11624,54,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,malade,malade,0.753045380115509
+00011697_000.png,No Finding,0,11697,52,F,PA,2048,2500,0.168,0.168,1,False,Sain,vieux,F_vieux,sain,sain,0.6007787585258484
+00011716_000.png,No Finding,0,11716,49,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.6497241258621216
+00011726_000.png,No Finding,0,11726,49,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.6290419697761536
+00011743_000.png,No Finding,0,11743,60,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5015507936477661
+00011754_000.png,No Finding,0,11754,24,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.6307358741760254
+00011758_000.png,No Finding,0,11758,54,F,PA,2522,2749,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.5958155989646912
+00011762_000.png,No Finding,0,11762,53,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.659524142742157
+00011763_000.png,No Finding,0,11763,30,M,PA,2598,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5686193704605103
+00011793_003.png,Atelectasis,3,11793,65,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.955851912498474
+00011800_000.png,Effusion|Infiltration|Mass,0,11800,59,M,PA,2946,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.9004105925559998
+00011828_000.png,Effusion,0,11828,64,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8349626660346985
+00011844_000.png,No Finding,0,11844,62,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5478845238685608
+00011921_000.png,No Finding,0,11921,44,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5940611362457275
+00011939_000.png,Mass,0,11939,50,F,PA,2634,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.641393780708313
+00011947_000.png,No Finding,0,11947,2,M,AP,2500,2048,0.115,0.115,1,True,Sain,jeune,M_jeune,malade,sain,0.562160313129425
+00011954_000.png,No Finding,0,11954,46,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.527561366558075
+00011958_000.png,No Finding,0,11958,40,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5781235694885254
+00011967_000.png,Infiltration,0,11967,36,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5709993243217468
+00011982_000.png,Nodule,0,11982,68,M,PA,2822,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.9224348664283752
+00011985_002.png,Infiltration,2,11985,54,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.8248075842857361
+00011986_001.png,Edema,1,11986,68,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,F_vieux,sain,malade,0.6520521640777588
+00012070_000.png,No Finding,0,12070,52,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6137228012084961
+00012081_000.png,Cardiomegaly,0,12081,30,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,sain,malade,0.6171330213546753
+00012096_001.png,Infiltration,1,12096,54,M,PA,2990,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5642437934875488
+00012111_000.png,Infiltration|Mass,0,12111,56,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5930458307266235
+00012133_000.png,Atelectasis|Pleural_Thickening,0,12133,50,F,PA,2544,3056,0.139,0.139,1,False,Malade,jeune,F_jeune,malade,malade,0.797620952129364
+00012181_000.png,No Finding,0,12181,71,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5337522029876709
+00012207_000.png,Cardiomegaly,0,12207,34,F,PA,2682,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.6258907318115234
+00012234_000.png,No Finding,0,12234,57,F,PA,2690,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7223867774009705
+00012258_000.png,No Finding,0,12258,51,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7607629895210266
+00012260_000.png,Infiltration,0,12260,45,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5271965861320496
+00012292_000.png,No Finding,0,12292,55,F,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.6845265626907349
+00012317_000.png,No Finding,0,12317,59,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7734968662261963
+00012354_000.png,No Finding,0,12354,44,F,PA,2754,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7326881885528564
+00012356_000.png,No Finding,0,12356,18,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5409672260284424
+00012422_005.png,Infiltration,5,12422,63,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5323222875595093
+00012476_009.png,Infiltration,9,12476,58,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.6833993196487427
+00012496_003.png,Atelectasis,3,12496,40,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.9275118112564088
+00012540_000.png,No Finding,0,12540,62,M,PA,2974,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5280794501304626
+00012569_000.png,Mass,0,12569,63,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.673046886920929
+00012588_000.png,Mass,0,12588,70,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.9056515097618104
+00012595_000.png,No Finding,0,12595,22,M,PA,2738,2805,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5340649485588074
+00012625_001.png,Atelectasis,1,12625,22,F,AP,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.6301696300506592
+00012641_000.png,Infiltration,0,12641,46,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5658970475196838
+00012682_002.png,Atelectasis|Consolidation|Infiltration,2,12682,58,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.6844049692153931
+00012719_009.png,Infiltration,9,12719,56,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5703408122062683
+00012726_000.png,Infiltration,0,12726,49,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.5542757511138916
+00012730_000.png,No Finding,0,12730,46,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.617513120174408
+00012796_003.png,Effusion|Nodule,3,12796,45,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.7792905569076538
+00012854_002.png,Infiltration,2,12854,11,M,PA,2714,2325,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.8673914670944214
+00012860_000.png,No Finding,0,12860,59,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.727660059928894
+00012862_000.png,No Finding,0,12862,41,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8863107562065125
+00012886_000.png,No Finding,0,12886,46,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6530389785766602
+00012888_000.png,Atelectasis|Nodule,0,12888,52,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.620334804058075
+00012919_008.png,Infiltration,8,12919,18,M,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.7804341912269592
+00012929_000.png,No Finding,0,12929,53,M,PA,2642,2878,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5747658610343933
+00012936_000.png,Fibrosis|Infiltration,0,12936,53,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5298336744308472
+00012962_000.png,No Finding,0,12962,35,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.6183514595031738
+00012976_004.png,Edema,4,12976,62,F,PA,2682,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8337219953536987
+00012979_000.png,No Finding,0,12979,53,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6120662093162537
+00012986_000.png,No Finding,0,12986,39,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5723340511322021
+00013000_000.png,Effusion|Fibrosis,0,13000,63,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.7339661717414856
+00013018_000.png,No Finding,0,13018,44,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,malade,sain,0.5641168355941772
+00013022_000.png,No Finding,0,13022,48,F,PA,2586,2757,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5538743138313293
+00013025_000.png,Infiltration,0,13025,52,F,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.5840257406234741
+00013053_000.png,No Finding,0,13053,65,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,malade,sain,0.5252763628959656
+00013060_000.png,Consolidation|Fibrosis|Infiltration,0,13060,58,F,PA,2494,2661,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.707971453666687
+00013087_000.png,No Finding,0,13087,59,M,PA,2730,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5102278590202332
+00013095_000.png,No Finding,0,13095,53,F,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.598593533039093
+00013158_000.png,Mass,0,13158,37,M,PA,2716,2932,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.6821960806846619
+00013195_000.png,No Finding,0,13195,8,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8159753680229187
+00013234_000.png,Effusion|Pleural_Thickening,0,13234,44,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.60530686378479
+00013236_000.png,No Finding,0,13236,33,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.7183582186698914
+00013252_000.png,No Finding,0,13252,40,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7669724225997925
+00013262_001.png,Cardiomegaly,1,13262,41,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,malade,malade,0.6499752998352051
+00013265_001.png,Mass,1,13265,37,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.6243013143539429
+00013290_000.png,No Finding,0,13290,25,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6654039621353149
+00013315_000.png,No Finding,0,13315,61,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.5011470317840576
+00013329_002.png,Pneumothorax,2,13329,70,F,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.8930284976959229
+00013345_000.png,No Finding,0,13345,64,F,PA,2546,2805,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.6116573810577393
+00013366_000.png,Infiltration|Mass,0,13366,65,M,PA,2670,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5682653188705444
+00013371_000.png,No Finding,0,13371,73,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,malade,sain,0.7755938768386841
+00013380_000.png,Hernia,0,13380,47,F,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.5591410994529724
+00013392_000.png,Infiltration|Nodule,0,13392,44,F,PA,2986,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.5627145171165466
+00013423_000.png,No Finding,0,13423,37,M,PA,2862,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.6401662826538086
+00013424_000.png,Infiltration,0,13424,56,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.7264232635498047
+00013435_002.png,Mass,2,13435,45,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.7109715342521667
+00013459_000.png,No Finding,0,13459,43,F,PA,2410,2609,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5708349347114563
+00013495_000.png,No Finding,0,13495,51,F,PA,2712,2576,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6739004254341125
+00013512_000.png,No Finding,0,13512,67,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5415535569190979
+00013515_001.png,Atelectasis|Emphysema,1,13515,50,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.6783002018928528
+00013544_000.png,No Finding,0,13544,48,M,PA,2816,2747,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5129183530807495
+00013588_000.png,No Finding,0,13588,49,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5061981678009033
+00013595_000.png,No Finding,0,13595,32,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.795610249042511
+00013608_000.png,Effusion|Mass,0,13608,16,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.9515669345855712
+00013633_001.png,Infiltration,1,13633,62,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.5623066425323486
+00013640_000.png,No Finding,0,13640,38,F,PA,2866,2749,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7827699184417725
+00013682_000.png,Cardiomegaly,0,13682,51,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,sain,malade,0.5523823499679565
+00013704_000.png,Atelectasis|Fibrosis,0,13704,47,F,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.7280735373497009
+00013714_004.png,Nodule,4,13714,35,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5696021914482117
+00013761_000.png,No Finding,0,13761,57,F,PA,2662,2673,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7255528569221497
+00013778_000.png,Atelectasis|Nodule,0,13778,43,F,PA,2442,2621,0.143,0.143,1,False,Malade,jeune,F_jeune,malade,malade,0.5053054690361023
+00013813_000.png,No Finding,0,13813,59,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6750627160072327
+00013823_001.png,Infiltration,1,13823,52,F,PA,2618,2437,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.670784592628479
+00013833_007.png,Atelectasis|Infiltration,7,13833,47,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.6495920419692993
+00013854_000.png,No Finding,0,13854,45,M,PA,2992,2837,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5940678119659424
+00013891_000.png,No Finding,0,13891,36,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6962931156158447
+00013896_003.png,Nodule,3,13896,42,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.6877968311309814
+00013950_004.png,Atelectasis,4,13950,64,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7759800553321838
+00013972_000.png,No Finding,0,13972,37,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5265522599220276
+00013974_000.png,No Finding,0,13974,49,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5819260478019714
+00013985_000.png,No Finding,0,13985,55,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.5572727918624878
+00014001_000.png,No Finding,0,14001,56,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,malade,sain,0.6065617203712463
+00014024_000.png,No Finding,0,14024,47,F,PA,2622,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.6064357161521912
+00014032_000.png,Infiltration|Nodule,0,14032,60,M,PA,2766,2544,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7901621460914612
+00014051_000.png,No Finding,0,14051,56,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.7725309133529663
+00014074_000.png,Effusion,0,14074,72,F,PA,2790,2429,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.9590094089508056
+00014114_000.png,No Finding,0,14114,21,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.56351238489151
+00014120_003.png,Pneumothorax,3,14120,68,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.8116182088851929
+00014147_000.png,No Finding,0,14147,16,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6571831703186035
+00014186_000.png,No Finding,0,14186,59,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5734246373176575
+00014227_000.png,No Finding,0,14227,54,M,PA,2602,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6935138702392578
+00014233_000.png,No Finding,0,14233,23,F,PA,2624,2831,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8380391597747803
+00014238_000.png,No Finding,0,14238,55,F,PA,2618,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5310508608818054
+00014249_000.png,No Finding,0,14249,41,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7200248837471008
+00014250_000.png,Effusion,0,14250,53,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,sain,malade,0.6904147267341614
+00014273_000.png,Cardiomegaly,0,14273,28,F,AP,2048,2500,0.168,0.168,1,True,Malade,jeune,F_jeune,sain,malade,0.6573898792266846
+00014296_003.png,Mass,3,14296,69,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.6654093265533447
+00014371_000.png,No Finding,0,14371,26,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.865528404712677
+00014380_002.png,Infiltration,2,14380,50,F,PA,2346,2569,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.6546797156333923
+00014386_000.png,No Finding,0,14386,53,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.6330291032791138
+00014412_000.png,Cardiomegaly,0,14412,57,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.627983808517456
+00014445_000.png,No Finding,0,14445,65,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.708970844745636
+00014450_000.png,No Finding,0,14450,17,F,PA,2766,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5787466764450073
+00014487_000.png,No Finding,0,14487,28,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7321030497550964
+00014498_000.png,No Finding,0,14498,39,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6500140428543091
+00014562_000.png,No Finding,0,14562,63,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7601008415222168
+00014570_000.png,Mass,0,14570,43,F,PA,2826,2581,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.9593560099601746
+00014580_000.png,Effusion|Pleural_Thickening,0,14580,60,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.8593289852142334
+00014597_000.png,No Finding,0,14597,30,M,PA,2832,2553,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.676344096660614
+00014598_000.png,No Finding,0,14598,67,F,PA,2378,2765,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.8781900405883789
+00014609_000.png,Mass,0,14609,45,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.6039654612541199
+00014646_001.png,Infiltration,1,14646,56,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.564111590385437
+00014649_000.png,No Finding,0,14649,46,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5951018929481506
+00014655_000.png,No Finding,0,14655,40,F,PA,2818,2905,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5638794302940369
+00014663_000.png,Nodule,0,14663,61,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.815646231174469
+00014670_000.png,Infiltration,0,14670,23,M,PA,2892,2932,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.6783971786499023
+00014678_001.png,Infiltration,1,14678,54,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.608784019947052
+00014706_000.png,Cardiomegaly|Infiltration,0,14706,23,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7449623346328735
+00014712_000.png,No Finding,0,14712,30,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5017099380493164
+00014743_001.png,Infiltration,1,14743,52,F,PA,2822,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5709567666053772
+00014753_000.png,Infiltration|Mass,0,14753,24,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7798969149589539
+00014764_000.png,Infiltration,0,14764,34,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.8572700619697571
+00014776_000.png,No Finding,0,14776,58,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6358320116996765
+00014783_000.png,No Finding,0,14783,33,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7360889911651611
+00014794_000.png,No Finding,0,14794,57,F,PA,2410,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.5136800408363342
+00014803_000.png,No Finding,0,14803,37,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8615825176239014
+00014823_000.png,No Finding,0,14823,45,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.7450113892555237
+00014877_004.png,Infiltration,4,14877,23,M,PA,2020,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.7124967575073242
+00014909_000.png,No Finding,0,14909,39,M,PA,2658,2442,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.7871516942977905
+00014928_000.png,No Finding,0,14928,25,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6866560578346252
+00014963_000.png,No Finding,0,14963,54,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6990623474121094
+00015032_002.png,Infiltration,2,15032,26,M,PA,2572,2819,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7189766764640808
+00015039_008.png,Mass,8,15039,46,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.7947617173194885
+00015042_000.png,No Finding,0,15042,43,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5059994459152222
+00015088_000.png,No Finding,0,15088,23,M,PA,2710,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5970804691314697
+00015095_000.png,Infiltration|Nodule,0,15095,70,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6212354302406311
+00015130_000.png,No Finding,0,15130,50,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6665897369384766
+00015143_000.png,No Finding,0,15143,47,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6016384363174438
+00015151_000.png,Fibrosis|Infiltration,0,15151,88,F,PA,2166,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.929385781288147
+00015163_000.png,Mass,0,15163,76,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6591043472290039
+00015170_003.png,Atelectasis,3,15170,52,F,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.7758574485778809
+00015173_000.png,Mass,0,15173,31,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.7627825736999512
+00015176_000.png,No Finding,0,15176,54,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.7645857334136963
+00015180_000.png,Atelectasis,0,15180,30,F,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,F_jeune,sain,malade,0.6952944397926331
+00015185_000.png,Atelectasis,0,15185,37,M,PA,2954,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.6906321048736572
+00015195_000.png,No Finding,0,15195,27,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6932550668716431
+00015223_000.png,Cardiomegaly|Infiltration,0,15223,89,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8251643776893616
+00015345_000.png,No Finding,0,15345,52,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.5514252781867981
+00015350_000.png,Atelectasis|Effusion,0,15350,48,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6190828680992126
+00015359_000.png,No Finding,0,15359,29,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.623706042766571
+00015361_000.png,Cardiomegaly,0,15361,51,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.5999822616577148
+00015375_001.png,Pleural_Thickening,1,15375,74,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5530306100845337
+00015421_000.png,Nodule,0,15421,42,M,PA,2870,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.6380941867828369
+00015441_000.png,No Finding,0,15441,37,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8462801575660706
+00015444_000.png,No Finding,0,15444,48,M,PA,2942,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5434252023696899
+00015453_000.png,No Finding,0,15453,32,M,PA,2898,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5324432849884033
+00015456_000.png,No Finding,0,15456,67,M,PA,2754,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.663175642490387
+00015470_000.png,No Finding,0,15470,24,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.6157764196395874
+00015488_000.png,No Finding,0,15488,60,F,PA,2570,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6719892024993896
+00015503_000.png,Infiltration|Nodule,0,15503,59,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.6197323203086853
+00015529_000.png,No Finding,0,15529,64,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6628365516662598
+00015542_000.png,No Finding,0,15542,46,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5307833552360535
+00015574_000.png,Atelectasis,0,15574,58,F,PA,2862,2725,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5997570157051086
+00015610_000.png,No Finding,0,15610,22,F,PA,2854,2593,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5721850991249084
+00015641_001.png,Infiltration,1,15641,67,F,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.8110851645469666
+00015644_000.png,No Finding,0,15644,65,F,PA,2626,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.665647566318512
+00015668_000.png,No Finding,0,15668,55,M,PA,2966,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.540675938129425
+00015674_000.png,No Finding,0,15674,17,F,AP,2500,2048,0.168,0.168,1,False,Sain,jeune,F_jeune,malade,sain,0.5991570353507996
+00015691_000.png,No Finding,0,15691,7,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.6488987803459167
+00015697_000.png,No Finding,0,15697,45,M,PA,2886,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.529306948184967
+00015700_003.png,Infiltration,3,15700,46,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.7347832918167114
+00015765_000.png,Emphysema,0,15765,64,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5217795968055725
+00015807_000.png,Atelectasis|Fibrosis,0,15807,58,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.6403353214263916
+00015811_002.png,Infiltration,2,15811,42,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5407894253730774
+00015820_000.png,No Finding,0,15820,62,M,AP,2048,2500,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.5973799228668213
+00015839_000.png,No Finding,0,15839,48,F,PA,2390,2545,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5714991092681885
+00015854_000.png,No Finding,0,15854,27,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.6870086193084717
+00015903_000.png,Mass,0,15903,76,F,PA,2990,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8660547733306885
+00015939_000.png,No Finding,0,15939,44,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7780740857124329
+00015943_000.png,No Finding,0,15943,37,M,PA,2818,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5242733955383301
+00015964_000.png,No Finding,0,15964,58,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.8223162889480591
+00015976_000.png,No Finding,0,15976,66,F,PA,2578,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5589991807937622
+00015995_001.png,Atelectasis,1,15995,61,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5151001811027527
+00016014_001.png,Atelectasis,1,16014,63,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.595958411693573
+00016018_000.png,Nodule,0,16018,59,F,PA,2706,2517,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.6842978000640869
+00016023_000.png,No Finding,0,16023,26,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5617907643318176
+00016067_000.png,No Finding,0,16067,46,F,PA,2410,2485,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5267735719680786
+00016091_000.png,No Finding,0,16091,19,F,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8787285089492798
+00016107_000.png,No Finding,0,16107,53,F,PA,2974,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6899703145027161
+00016127_000.png,Pleural_Thickening,0,16127,53,M,PA,2990,2989,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7579500675201416
+00016141_000.png,Effusion|Pleural_Thickening,0,16141,37,F,PA,2422,2485,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.9756364226341248
+00016142_001.png,Effusion|Infiltration,1,16142,19,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.9697777032852172
+00016147_000.png,No Finding,0,16147,50,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5730453133583069
+00016155_000.png,No Finding,0,16155,54,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.8312842845916748
+00016159_000.png,No Finding,0,16159,56,F,PA,2346,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7868098020553589
+00016221_000.png,No Finding,0,16221,54,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.579014241695404
+00016237_001.png,Infiltration,1,16237,50,M,AP,2048,2500,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.6104915142059326
+00016266_000.png,Fibrosis|Pneumothorax,0,16266,55,F,PA,2802,2789,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.7238280177116394
+00016272_000.png,No Finding,0,16272,32,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6288796663284302
+00016276_000.png,Mass,0,16276,53,F,PA,2606,2685,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.7564796209335327
+00016299_000.png,No Finding,0,16299,77,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5641145706176758
+00016303_000.png,No Finding,0,16303,53,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.6862918734550476
+00016376_000.png,Pleural_Thickening,0,16376,54,M,PA,2990,2861,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5113977193832397
+00016401_000.png,No Finding,0,16401,40,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7074295878410339
+00016402_000.png,Infiltration,0,16402,64,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.5640947818756104
+00016403_001.png,Nodule,1,16403,58,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,sain,malade,0.5606511235237122
+00016419_000.png,No Finding,0,16419,43,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,malade,sain,0.6134238243103027
+00016432_000.png,Infiltration,0,16432,53,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6297101974487305
+00016466_000.png,No Finding,0,16466,31,M,PA,2822,2889,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.6171815991401672
+00016475_000.png,Mass,0,16475,68,M,PA,2346,2901,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.8074107766151428
+00016527_000.png,No Finding,0,16527,32,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.7794697880744934
+00016554_003.png,Cardiomegaly|Pneumonia,3,16554,26,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.9034371376037598
+00016564_000.png,Cardiomegaly|Mass,0,16564,61,F,PA,2544,3056,0.139,0.139,1,False,Malade,vieux,F_vieux,sain,malade,0.5274632573127747
+00016576_000.png,Pleural_Thickening,0,16576,52,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6795692443847656
+00016665_000.png,No Finding,0,16665,45,M,PA,2758,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6163621544837952
+00016681_000.png,Atelectasis,0,16681,45,M,PA,2710,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.732401430606842
+00016687_000.png,Nodule,0,16687,62,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5112311840057373
+00016695_000.png,No Finding,0,16695,55,F,PA,2990,2941,0.143,0.143,1,False,Sain,vieux,F_vieux,malade,sain,0.7158878445625305
+00016701_000.png,Infiltration,0,16701,41,M,PA,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.6311392784118652
+00016763_000.png,No Finding,0,16763,80,M,PA,2606,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.6139575839042664
+00016767_000.png,No Finding,0,16767,14,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7452037334442139
+00016791_000.png,No Finding,0,16791,71,M,PA,2810,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.5110800266265869
+00016797_000.png,Effusion,0,16797,73,F,PA,2280,2426,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8691773414611816
+00016816_004.png,Infiltration,4,16816,39,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7810409069061279
+00016823_000.png,No Finding,0,16823,31,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6373303532600403
+00016825_000.png,Pneumonia,0,16825,52,F,PA,2360,2271,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.938017189502716
+00016826_000.png,Infiltration,0,16826,4,M,PA,2068,1920,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.5522122383117676
+00016831_000.png,Infiltration,0,16831,20,M,PA,2770,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6565386056900024
+00016836_000.png,No Finding,0,16836,39,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.574913740158081
+00016852_000.png,Mass|Nodule,0,16852,32,M,PA,2500,2048,0.168,0.168,1,False,Malade,jeune,M_jeune,sain,malade,0.6398943662643433
+00016910_000.png,No Finding,0,16910,27,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7394201755523682
+00016917_000.png,No Finding,0,16917,30,F,PA,2352,2564,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6423513889312744
+00016924_000.png,No Finding,0,16924,57,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.787857711315155
+00016931_000.png,Infiltration|Pleural_Thickening,0,16931,64,M,PA,2698,2733,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.8101125955581665
+00016959_000.png,No Finding,0,16959,51,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5100674033164978
+00016972_000.png,Atelectasis,0,16972,43,F,PA,2606,2565,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.6472042202949524
+00016992_000.png,No Finding,0,16992,14,M,PA,2830,2777,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5550320148468018
+00016998_000.png,Fibrosis,0,16998,74,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5724195241928101
+00017020_000.png,No Finding,0,17020,35,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.6335127949714661
+00017028_000.png,Nodule|Pleural_Thickening,0,17028,54,F,PA,2270,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7076587677001953
+00017032_000.png,No Finding,0,17032,8,M,PA,2638,2745,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5402512550354004
+00017052_000.png,No Finding,0,17052,57,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.5521650910377502
+00017056_000.png,No Finding,0,17056,54,F,PA,2458,2654,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6436238288879395
+00017062_000.png,Infiltration,0,17062,45,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.728144645690918
+00017099_000.png,No Finding,0,17099,70,M,PA,2670,2557,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.7008907198905945
+00017177_000.png,No Finding,0,17177,46,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6576961874961853
+00017208_002.png,Infiltration,2,17208,56,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.548719584941864
+00017294_000.png,No Finding,0,17294,41,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6420538425445557
+00017298_000.png,No Finding,0,17298,58,F,PA,2766,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7396160364151001
+00017305_000.png,No Finding,0,17305,34,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.5921220779418945
+00017312_000.png,No Finding,0,17312,27,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8575796484947205
+00017329_000.png,No Finding,0,17329,61,F,PA,2838,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.5011610388755798
+00017359_000.png,Infiltration,0,17359,56,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7296867966651917
+00017362_001.png,Atelectasis|Effusion|Infiltration,1,17362,52,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.8084741234779358
+00017369_001.png,Emphysema|Infiltration,1,17369,52,F,AP,2048,2500,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.7686929106712341
+00017373_000.png,Cardiomegaly,0,17373,49,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.598268985748291
+00017376_001.png,Atelectasis,1,17376,56,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.9331604838371276
+00017424_000.png,Atelectasis|Mass,0,17424,14,M,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,M_jeune,malade,malade,0.6437934637069702
+00017427_000.png,Mass,0,17427,51,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5247504711151123
+00017432_000.png,No Finding,0,17432,58,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5783594250679016
+00017457_000.png,No Finding,0,17457,32,M,PA,2740,2792,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.5871286988258362
+00017467_000.png,Atelectasis|Consolidation,0,17467,28,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.5657244324684143
+00017471_000.png,No Finding,0,17471,44,M,PA,2990,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.6480686068534851
+00017478_000.png,Mass,0,17478,62,F,PA,2048,2500,0.168,0.168,1,False,Malade,vieux,F_vieux,sain,malade,0.6178794503211975
+00017507_000.png,No Finding,0,17507,77,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.6414448618888855
+00017535_000.png,No Finding,0,17535,59,F,PA,2658,2493,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.7336427569389343
+00017585_000.png,No Finding,0,17585,41,M,PA,3056,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.6991061568260193
+00017590_000.png,No Finding,0,17590,21,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5555241703987122
+00017618_000.png,Consolidation|Nodule,0,17618,35,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7276920080184937
+00017622_000.png,No Finding,0,17622,40,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8334553241729736
+00017629_000.png,Infiltration,0,17629,57,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6764935255050659
+00017667_000.png,No Finding,0,17667,41,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7229214906692505
+00017726_000.png,Nodule,0,17726,47,M,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,malade,malade,0.7536154389381409
+00017741_000.png,Atelectasis,0,17741,64,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.5974993109703064
+00017771_000.png,No Finding,0,17771,32,F,PA,2992,2989,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.9753122329711914
+00017862_001.png,Consolidation,1,17862,45,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.8281540274620056
+00017866_000.png,Atelectasis,0,17866,63,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.6989279985427856
+00017874_000.png,No Finding,0,17874,31,M,PA,2570,2565,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.6417605876922607
+00017877_001.png,Atelectasis,1,17877,75,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.8583438396453857
+00017879_000.png,No Finding,0,17879,27,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.6658888459205627
+00017890_000.png,No Finding,0,17890,44,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.598863422870636
+00017891_001.png,Atelectasis|Effusion,1,17891,72,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.7501556277275085
+00017894_002.png,Effusion|Mass,2,17894,31,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7822260856628418
+00017898_001.png,Infiltration,1,17898,63,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5537645816802979
+00017901_000.png,No Finding,0,17901,51,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6439207196235657
+00017955_001.png,Infiltration,1,17955,48,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.5340811014175415
+00017964_000.png,No Finding,0,17964,40,F,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.5702263116836548
+00017965_000.png,No Finding,0,17965,51,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5695421695709229
+00017968_000.png,No Finding,0,17968,25,M,PA,2822,2725,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.7835404872894287
+00017981_008.png,Infiltration,8,17981,43,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.8978747129440308
+00017987_000.png,No Finding,0,17987,41,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.5736173391342163
+00017989_002.png,Nodule|Pleural_Thickening,2,17989,57,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5560522675514221
+00017991_007.png,Fibrosis|Pleural_Thickening,7,17991,64,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.6379842758178711
+00017994_000.png,Mass,0,17994,60,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.7178270816802979
+00018016_000.png,Infiltration,0,18016,61,M,PA,2604,2847,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5852523446083069
+00018021_000.png,Atelectasis|Nodule,0,18021,39,M,PA,2048,2500,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.8474428653717041
+00018058_000.png,Infiltration,0,18058,63,M,PA,2526,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6589149236679077
+00018066_000.png,No Finding,0,18066,33,F,PA,2546,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7234387993812561
+00018085_000.png,No Finding,0,18085,62,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6801611185073853
+00018095_000.png,No Finding,0,18095,55,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.7942805886268616
+00018140_000.png,Infiltration,0,18140,11,F,PA,2454,2509,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.6573808193206787
+00018141_000.png,No Finding,0,18141,3,M,AP,2388,2272,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.6224756836891174
+00018227_000.png,No Finding,0,18227,62,F,PA,2334,2481,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6545494794845581
+00018229_000.png,Infiltration,0,18229,24,M,PA,2388,2623,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.742682933807373
+00018259_000.png,Infiltration,0,18259,55,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5628156661987305
+00018293_000.png,No Finding,0,18293,62,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.6229262948036194
+00018310_000.png,No Finding,0,18310,53,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.7131112217903137
+00018350_000.png,Infiltration,0,18350,39,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5418320298194885
+00018351_000.png,No Finding,0,18351,40,M,AP,3056,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,malade,sain,0.8088850378990173
+00018361_000.png,No Finding,0,18361,61,F,PA,2598,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.6180546283721924
+00018368_000.png,No Finding,0,18368,55,F,PA,2538,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.5024636387825012
+00018395_000.png,No Finding,0,18395,48,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5627998113632202
+00018423_000.png,No Finding,0,18423,51,F,PA,2602,2801,0.143,0.143,1,False,Sain,vieux,F_vieux,malade,sain,0.8028229475021362
+00018446_000.png,No Finding,0,18446,40,F,PA,2758,2737,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5888867974281311
+00018461_000.png,Infiltration|Nodule,0,18461,55,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7035074830055237
+00018468_000.png,Atelectasis,0,18468,59,F,PA,2048,2500,0.168,0.168,1,False,Malade,vieux,F_vieux,sain,malade,0.5210443735122681
+00018481_000.png,No Finding,0,18481,56,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.7162431478500366
+00018595_000.png,No Finding,0,18595,51,F,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.5707091093063354
+00018666_000.png,No Finding,0,18666,38,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.7213720679283142
+00018680_002.png,Infiltration,2,18680,73,M,PA,2542,2746,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7154765129089355
+00018703_003.png,Infiltration,3,18703,61,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5139307975769043
+00018713_000.png,No Finding,0,18713,51,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,malade,sain,0.5549613237380981
+00018728_000.png,No Finding,0,18728,39,F,PA,2590,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7084300518035889
+00018729_000.png,Infiltration|Nodule,0,18729,45,F,PA,2892,2916,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.8154578804969788
+00018731_003.png,Effusion|Infiltration,3,18731,58,F,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,F_vieux,malade,malade,0.9043517112731934
+00018743_000.png,Infiltration,0,18743,47,F,PA,2910,2853,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.6426078081130981
+00018745_000.png,Mass|Pleural_Thickening,0,18745,36,M,PA,2650,2701,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.871181070804596
+00018799_000.png,Infiltration,0,18799,49,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.5095353126525879
+00018806_000.png,Fibrosis,0,18806,51,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.7537434697151184
+00018860_000.png,Infiltration|Pleural_Thickening,0,18860,42,M,PA,2021,2021,0.194311,0.194311,1,False,Malade,jeune,M_jeune,malade,malade,0.5825205445289612
+00018889_000.png,Atelectasis|Effusion|Infiltration,0,18889,34,F,PA,2734,2649,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.9229855537414552
+00018912_000.png,Effusion,0,18912,16,M,PA,2898,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7693721652030945
+00018954_000.png,No Finding,0,18954,31,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.612480103969574
+00018968_001.png,Infiltration,1,18968,65,F,PA,2838,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.6519065499305725
+00018971_000.png,Infiltration,0,18971,34,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.6827235817909241
+00018985_001.png,Cardiomegaly|Consolidation|Effusion|Pleural_Thickening,1,18985,48,M,AP,2500,2048,0.168,0.168,1,False,Malade,jeune,M_jeune,malade,malade,0.6014143228530884
+00019008_000.png,No Finding,0,19008,63,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,malade,sain,0.700326681137085
+00019050_000.png,No Finding,0,19050,36,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5782440900802612
+00019061_000.png,No Finding,0,19061,51,M,PA,2782,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.7895442247390747
+00019104_000.png,No Finding,0,19104,47,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6158059239387512
+00019119_001.png,Infiltration,1,19119,37,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.8114202618598938
+00019124_000.png,Nodule|Pleural_Thickening,0,19124,52,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.6789318323135376
+00019221_000.png,No Finding,0,19221,23,F,PA,2518,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5641652345657349
+00019244_001.png,Atelectasis|Effusion|Infiltration,1,19244,54,F,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,F_vieux,malade,malade,0.940284788608551
+00019254_000.png,No Finding,0,19254,33,M,PA,2738,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.6199349761009216
+00019274_000.png,No Finding,0,19274,77,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5193776488304138
+00019282_000.png,Nodule,0,19282,53,M,PA,2892,2948,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6317611336708069
+00019338_000.png,No Finding,0,19338,42,F,PA,2934,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6795269250869751
+00019354_000.png,Infiltration,0,19354,65,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.8040827512741089
+00019366_000.png,No Finding,0,19366,23,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5883747935295105
+00019372_000.png,No Finding,0,19372,38,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.631613552570343
+00019383_002.png,Infiltration,2,19383,21,M,PA,3056,2472,0.139,0.139,1,False,Malade,jeune,M_jeune,sain,malade,0.6952007412910461
+00019413_000.png,No Finding,0,19413,66,F,PA,2021,2020,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.682088315486908
+00019428_000.png,No Finding,0,19428,47,F,PA,2622,2785,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5256557464599609
+00019440_000.png,Atelectasis|Mass,0,19440,63,F,PA,2992,2817,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.6122846007347107
+00019442_000.png,Nodule,0,19442,35,M,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,M_jeune,malade,malade,0.7203431725502014
+00019443_000.png,No Finding,0,19443,34,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.5136917233467102
+00019447_000.png,Infiltration,0,19447,80,F,PA,2614,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.6749297380447388
+00019468_000.png,No Finding,0,19468,79,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.6031700372695923
+00019478_001.png,Pneumothorax,1,19478,44,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5465940237045288
+00019493_000.png,Nodule,0,19493,52,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.5177148580551147
+00019507_000.png,Infiltration,0,19507,43,F,PA,2578,2545,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5842653512954712
+00019510_000.png,No Finding,0,19510,58,M,PA,2532,3056,0.139,0.139,1,False,Sain,vieux,M_vieux,sain,sain,0.7121203541755676
+00019520_000.png,No Finding,0,19520,65,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.707351803779602
+00019524_000.png,No Finding,0,19524,63,F,PA,2658,2709,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.6089529991149902
+00019536_000.png,Nodule,0,19536,56,M,PA,3048,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.7570617198944092
+00019561_000.png,No Finding,0,19561,65,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5198789238929749
+00019578_000.png,No Finding,0,19578,67,F,PA,2754,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5742254257202148
+00019609_000.png,No Finding,0,19609,53,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.650913655757904
+00019613_000.png,Mass,0,19613,61,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.8263719081878662
+00019622_000.png,No Finding,0,19622,27,M,PA,2598,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5268457531929016
+00019649_000.png,Pleural_Thickening,0,19649,54,F,PA,2484,3044,0.139,0.139,1,False,Malade,vieux,F_vieux,sain,malade,0.7061367630958557
+00019673_000.png,Atelectasis|Edema|Infiltration,0,19673,81,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.961908221244812
+00019683_000.png,Fibrosis,0,19683,29,F,PA,2718,2285,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.6835500001907349
+00019685_000.png,Effusion|Nodule,0,19685,61,F,PA,2430,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8855431079864502
+00019715_000.png,No Finding,0,19715,25,M,PA,2710,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6492359042167664
+00019717_000.png,Mass|Nodule,0,19717,43,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.611807644367218
+00019730_000.png,Pneumothorax,0,19730,31,F,AP,2500,2048,0.168,0.168,1,True,Malade,jeune,F_jeune,malade,malade,0.7541489005088806
+00019754_004.png,Nodule,4,19754,72,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.795552134513855
+00019755_000.png,Infiltration,0,19755,55,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.6251674294471741
+00019763_000.png,Atelectasis|Infiltration,0,19763,59,F,PA,2990,2704,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.8673354387283325
+00019869_000.png,No Finding,0,19869,41,F,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7959723472595215
+00019870_001.png,Infiltration|Mass,1,19870,47,M,PA,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.8280252814292908
+00019888_000.png,Mass|Nodule,0,19888,36,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.8790417909622192
+00019944_000.png,No Finding,0,19944,84,M,PA,2730,2645,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.9125789403915404
+00019954_000.png,No Finding,0,19954,23,F,PA,2450,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5834028124809265
+00019960_000.png,No Finding,0,19960,60,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5119708180427551
+00019962_002.png,Pneumonia,2,19962,29,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6226587295532227
+00019964_000.png,Effusion,0,19964,43,M,PA,2718,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.7093045115470886
+00019975_000.png,Infiltration,0,19975,36,F,PA,2506,2729,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.6542009115219116
+00020007_000.png,No Finding,0,20007,54,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7815240621566772
+00020015_000.png,No Finding,0,20015,31,M,PA,2990,2863,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.6787602305412292
+00020019_001.png,Nodule,1,20019,64,F,PA,2992,2769,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8229965567588806
+00020035_000.png,No Finding,0,20035,49,M,PA,2706,2573,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.6796236634254456
+00020049_000.png,Infiltration,0,20049,37,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.6936414837837219
+00020116_001.png,Atelectasis,1,20116,47,F,AP,3056,2540,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.8245530724525452
+00020120_000.png,No Finding,0,20120,19,M,PA,1766,1434,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5218796730041504
+00020126_000.png,Nodule,0,20126,72,M,PA,2048,2500,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.6512084007263184
+00020159_001.png,Infiltration,1,20159,52,M,AP,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.5843198895454407
+00020200_001.png,Atelectasis,1,20200,53,F,AP,3056,2544,0.139,0.139,1,False,Malade,vieux,F_vieux,malade,malade,0.9203486442565918
+00020220_000.png,Infiltration,0,20220,50,M,PA,2698,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.7215553522109985
+00020234_000.png,Effusion|Nodule,0,20234,29,M,PA,2762,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7759760022163391
+00020235_000.png,No Finding,0,20235,56,M,PA,2826,2817,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.5128694772720337
+00020263_000.png,No Finding,0,20263,42,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.7399730086326599
+00020357_000.png,No Finding,0,20357,61,F,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,F_vieux,malade,sain,0.6228210926055908
+00020373_000.png,Mass,0,20373,28,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.5131140351295471
+00020375_000.png,Infiltration,0,20375,8,M,PA,2478,2329,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.698557436466217
+00020380_001.png,Atelectasis,1,20380,77,M,PA,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,sain,malade,0.5168971419334412
+00020382_000.png,Effusion,0,20382,47,M,PA,2754,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.8101553916931152
+00020387_002.png,Infiltration,2,20387,48,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.7581372261047363
+00020402_000.png,Effusion|Nodule,0,20402,33,M,PA,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.7702399492263794
+00020404_000.png,Atelectasis|Fibrosis|Pleural_Thickening,0,20404,67,M,PA,2566,2804,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6101518869400024
+00020437_000.png,Mass,0,20437,56,F,PA,2818,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.707484781742096
+00020445_000.png,Infiltration,0,20445,26,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.5584655404090881
+00020469_001.png,Nodule,1,20469,44,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5061273574829102
+00020473_001.png,Effusion|Infiltration,1,20473,56,F,AP,2728,2544,0.139,0.139,1,False,Malade,vieux,F_vieux,malade,malade,0.910099983215332
+00020530_000.png,No Finding,0,20530,51,F,PA,2702,2849,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.6932743191719055
+00020544_000.png,Infiltration,0,20544,14,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.5095844268798828
+00020554_000.png,No Finding,0,20554,37,F,PA,2540,3036,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.8251180648803711
+00020604_000.png,Infiltration,0,20604,55,M,PA,3056,2544,0.139,0.139,1,False,Malade,vieux,M_vieux,malade,malade,0.942592978477478
+00020610_000.png,No Finding,0,20610,12,M,PA,2540,2828,0.139,0.139,1,False,Sain,jeune,M_jeune,sain,sain,0.7899719476699829
+00020616_000.png,No Finding,0,20616,24,F,PA,2630,2785,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5216977596282959
+00020628_000.png,No Finding,0,20628,49,F,PA,2886,2653,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6518540978431702
+00020629_003.png,Infiltration,3,20629,56,F,AP,3020,2544,0.139,0.139,1,False,Malade,vieux,F_vieux,malade,malade,0.8069232702255249
+00020634_000.png,No Finding,0,20634,57,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.5338161587715149
+00020636_000.png,Atelectasis,0,20636,64,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5551648736000061
+00020684_000.png,Cardiomegaly,0,20684,23,F,PA,2510,2593,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5484546422958374
+00020686_000.png,No Finding,0,20686,40,M,PA,3056,2472,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.8710809350013733
+00020707_000.png,No Finding,0,20707,48,F,PA,2518,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7289152145385742
+00020745_000.png,Pleural_Thickening,0,20745,41,F,PA,2478,2641,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7593345046043396
+00020795_000.png,Infiltration,0,20795,32,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.7229231595993042
+00020815_000.png,No Finding,0,20815,72,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.6220664978027344
+00020871_000.png,Consolidation|Pneumonia,0,20871,63,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.51185142993927
+00020885_002.png,Effusion|Mass,2,20885,32,F,PA,2946,2937,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.8295149803161621
+00020906_000.png,No Finding,0,20906,24,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6255404353141785
+00020919_000.png,Infiltration,0,20919,43,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.7430985569953918
+00020940_000.png,No Finding,0,20940,64,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6416056752204895
+00020949_000.png,Atelectasis|Infiltration,0,20949,65,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.635032057762146
+00020956_000.png,Effusion|Infiltration|Nodule,0,20956,22,F,AP,2948,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.862212061882019
+00020988_000.png,No Finding,0,20988,45,M,PA,3056,2532,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.7290284037590027
+00021013_000.png,No Finding,0,21013,30,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6694558262825012
+00021015_000.png,No Finding,0,21015,49,F,PA,2544,3036,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.757906436920166
+00021059_000.png,Infiltration,0,21059,39,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.5752000212669373
+00021073_000.png,Consolidation|Mass|Nodule,0,21073,51,M,AP,2500,2048,0.168,0.168,1,True,Malade,vieux,M_vieux,malade,malade,0.9166527390480042
+00021102_000.png,No Finding,0,21102,73,M,AP,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,malade,sain,0.674324095249176
+00021105_000.png,Cardiomegaly,0,21105,42,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,malade,malade,0.626197874546051
+00021109_007.png,Pleural_Thickening,7,21109,33,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.7716251015663147
+00021128_000.png,Infiltration|Nodule,0,21128,49,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.6615402698516846
+00021131_000.png,Infiltration,0,21131,62,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.7050734162330627
+00021134_000.png,No Finding,0,21134,7,M,AP,2368,2012,0.139,0.139,1,True,Sain,jeune,M_jeune,malade,sain,0.5436002612113953
+00021142_000.png,Infiltration,0,21142,27,F,PA,1545,2021,0.194311,0.194311,1,False,Malade,jeune,F_jeune,sain,malade,0.6954354643821716
+00021150_000.png,Nodule,0,21150,31,F,PA,2504,3056,0.139,0.139,1,False,Malade,jeune,F_jeune,sain,malade,0.7364829778671265
+00021160_000.png,No Finding,0,21160,47,F,PA,2454,2549,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8153986930847168
+00021163_000.png,Infiltration,0,21163,21,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.9145252108573914
+00021197_001.png,Fibrosis|Infiltration|Nodule,1,21197,52,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.8126201629638672
+00021237_000.png,No Finding,0,21237,57,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6856809854507446
+00021263_000.png,No Finding,0,21263,51,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5908074975013733
+00021299_000.png,Atelectasis|Infiltration,0,21299,62,M,PA,2892,2948,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.534101665019989
+00021326_000.png,Cardiomegaly,0,21326,51,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5185271501541138
+00021332_000.png,No Finding,0,21332,68,M,PA,3056,2496,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.7594062089920044
+00021354_000.png,No Finding,0,21354,20,M,PA,3056,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.8216109871864319
+00021378_000.png,Infiltration,0,21378,47,M,PA,2774,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.6931220889091492
+00021414_000.png,Pleural_Thickening,0,21414,56,M,PA,3056,2488,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.672925591468811
+00021435_000.png,Effusion|Infiltration,0,21435,75,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.644296407699585
+00021436_000.png,No Finding,0,21436,70,M,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.5678765773773193
+00021444_000.png,No Finding,0,21444,46,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6470273733139038
+00021486_000.png,No Finding,0,21486,61,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.5621206164360046
+00021531_000.png,Infiltration,0,21531,35,M,PA,2684,2727,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7254904508590698
+00021542_000.png,No Finding,0,21542,38,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5081579089164734
+00021551_000.png,Infiltration,0,21551,34,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.7552800178527832
+00021567_001.png,Infiltration,1,21567,20,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.6352404356002808
+00021574_000.png,Atelectasis|Effusion,0,21574,65,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.8160791397094727
+00021576_000.png,No Finding,0,21576,59,F,PA,2814,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.7221497893333435
+00021578_000.png,Infiltration,0,21578,54,F,PA,2542,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.7249800562858582
+00021586_000.png,Infiltration,0,21586,26,F,PA,2258,2361,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.5508646965026855
+00021593_000.png,Infiltration,0,21593,20,M,PA,2606,2757,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.661677360534668
+00021597_000.png,Mass,0,21597,61,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7248895168304443
+00021607_000.png,Cardiomegaly,0,21607,31,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5481466054916382
+00021612_000.png,Nodule|Pleural_Thickening,0,21612,41,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.765739917755127
+00021641_000.png,No Finding,0,21641,63,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.7106884717941284
+00021646_000.png,No Finding,0,21646,60,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5836998820304871
+00021647_000.png,No Finding,0,21647,62,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5070193409919739
+00021659_000.png,No Finding,0,21659,55,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.5495820045471191
+00021713_000.png,No Finding,0,21713,74,F,PA,2526,2541,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7594699263572693
+00021732_000.png,No Finding,0,21732,36,M,PA,3056,2512,0.139,0.139,1,False,Sain,jeune,M_jeune,sain,sain,0.7524581551551819
+00021750_000.png,Infiltration,0,21750,70,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7091075778007507
+00021765_000.png,No Finding,0,21765,53,M,AP,3056,2544,0.139,0.139,1,False,Sain,vieux,M_vieux,malade,sain,0.6095691323280334
+00021767_000.png,No Finding,0,21767,45,F,PA,2262,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5167387127876282
+00021793_000.png,Pleural_Thickening,0,21793,55,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.540974497795105
+00021828_000.png,Effusion,0,21828,70,F,PA,2798,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8636699914932251
+00021834_000.png,Infiltration,0,21834,52,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.5921789407730103
+00021860_000.png,Edema|Infiltration,0,21860,46,F,PA,2544,3056,0.139,0.139,1,False,Malade,jeune,F_jeune,malade,malade,0.5981424450874329
+00021874_000.png,Infiltration,0,21874,56,M,PA,2726,2697,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5141372680664062
+00021906_000.png,No Finding,0,21906,54,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.7787272930145264
+00021922_000.png,Mass|Nodule,0,21922,69,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.7278653979301453
+00021924_000.png,No Finding,0,21924,60,F,PA,1665,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.6592517495155334
+00021943_000.png,Hernia,0,21943,74,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.6827369928359985
+00021959_000.png,Infiltration,0,21959,32,F,PA,2630,2717,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.622016966342926
+00021967_000.png,Effusion|Infiltration,0,21967,61,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.9023582935333252
+00021973_000.png,No Finding,0,21973,3,F,PA,1852,2196,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.8475437164306641
+00021986_000.png,No Finding,0,21986,46,M,PA,2992,2621,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5767325162887573
+00022012_000.png,No Finding,0,22012,40,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7189565896987915
+00022033_000.png,No Finding,0,22033,28,F,PA,2510,2989,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6292119026184082
+00022041_000.png,Emphysema,0,22041,68,M,PA,2550,2669,0.143,0.143,1,False,Malade,vieux,M_vieux,sain,malade,0.5474904775619507
+00022049_000.png,No Finding,0,22049,51,F,PA,2270,2681,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7155410051345825
+00022058_000.png,Mass,0,22058,31,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.5768074989318848
+00022059_000.png,Mass,0,22059,74,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.8096351623535156
+00022094_000.png,No Finding,0,22094,71,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.558518648147583
+00022101_000.png,Atelectasis|Effusion|Infiltration,0,22101,79,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.9222930669784546
+00022132_001.png,Atelectasis|Effusion|Infiltration|Pneumothorax,1,22132,57,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.8553617596626282
+00022135_006.png,Infiltration,6,22135,13,F,PA,2066,2181,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5271485447883606
+00022138_000.png,Nodule,0,22138,33,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.7552385330200195
+00022154_000.png,No Finding,0,22154,61,F,PA,2438,2453,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7064169049263
+00022182_000.png,Infiltration,0,22182,55,F,PA,2396,2569,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.7502074837684631
+00022202_001.png,Atelectasis,1,22202,49,M,PA,2970,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.5965785384178162
+00022210_000.png,Infiltration,0,22210,65,M,PA,2500,2048,0.168,0.168,1,False,Malade,vieux,M_vieux,sain,malade,0.7950266599655151
+00022215_000.png,Infiltration,0,22215,53,F,AP,3056,2544,0.139,0.139,1,False,Malade,vieux,F_vieux,sain,malade,0.5166508555412292
+00022226_000.png,Infiltration,0,22226,21,F,PA,2992,2821,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5021636486053467
+00022237_001.png,Atelectasis,1,22237,68,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.7878321409225464
+00022249_000.png,Consolidation,0,22249,16,M,PA,2238,2313,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.719315230846405
+00022262_000.png,Atelectasis,0,22262,49,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.5772175192832947
+00022291_001.png,Atelectasis,1,22291,36,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7305427193641663
+00022295_002.png,Atelectasis|Edema|Mass|Pleural_Thickening,2,22295,57,F,AP,2952,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.9752360582351683
+00022306_000.png,No Finding,0,22306,45,F,PA,2654,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7403571009635925
+00022307_000.png,Infiltration,0,22307,10,M,PA,2614,1957,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.8509149551391602
+00022324_000.png,No Finding,0,22324,59,F,PA,2818,2533,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5015656352043152
+00022337_001.png,Infiltration,1,22337,51,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.5658831596374512
+00022339_000.png,Infiltration,0,22339,3,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.5343308448791504
+00022361_000.png,No Finding,0,22361,15,F,PA,2934,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6939647197723389
+00022419_001.png,Infiltration,1,22419,45,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.6984052062034607
+00022436_000.png,Pneumonia,0,22436,53,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.6397787928581238
+00022446_001.png,Infiltration,1,22446,37,F,PA,2544,3056,0.139,0.139,1,True,Malade,jeune,F_jeune,sain,malade,0.8154991865158081
+00022448_000.png,No Finding,0,22448,24,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.5111247301101685
+00022475_000.png,No Finding,0,22475,24,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.6329302191734314
+00022485_000.png,Atelectasis|Fibrosis,0,22485,49,M,PA,3056,2540,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.5016135573387146
+00022490_000.png,No Finding,0,22490,54,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.6351260542869568
+00022514_001.png,Infiltration,1,22514,41,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.831696093082428
+00022533_002.png,Effusion,2,22533,64,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8362407684326172
+00022576_000.png,No Finding,0,22576,42,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.8551035523414612
+00022583_000.png,No Finding,0,22583,49,M,PA,2544,3056,0.139,0.139,1,False,Sain,jeune,M_jeune,sain,sain,0.6863245964050293
+00022612_000.png,No Finding,0,22612,31,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5281606316566467
+00022617_000.png,No Finding,0,22617,62,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.517939567565918
+00022694_000.png,No Finding,0,22694,43,F,PA,2534,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6403319239616394
+00022695_000.png,Infiltration,0,22695,58,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.696501612663269
+00022700_000.png,Infiltration,0,22700,29,M,PA,2510,2645,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7625710964202881
+00022714_000.png,No Finding,0,22714,5,F,AP,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.6562222242355347
+00022715_000.png,Infiltration,0,22715,34,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.5013139843940735
+00022718_000.png,Infiltration,0,22718,17,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6798539757728577
+00022794_000.png,Cardiomegaly,0,22794,59,F,PA,2968,2102,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7740893959999084
+00022797_000.png,No Finding,0,22797,41,F,PA,3056,2544,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.6994718909263611
+00022799_000.png,Nodule|Pleural_Thickening,0,22799,72,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.8988199830055237
+00022864_000.png,Infiltration,0,22864,72,F,PA,2542,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7543768286705017
+00022905_000.png,No Finding,0,22905,59,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.6920855641365051
+00022961_000.png,Atelectasis,0,22961,61,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.688001275062561
+00022969_001.png,Pneumothorax,1,22969,24,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.6280820965766907
+00022972_000.png,No Finding,0,22972,53,F,PA,2634,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7460422515869141
+00022978_000.png,Infiltration,0,22978,62,F,PA,2674,2465,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.6483829021453857
+00022993_000.png,Infiltration,0,22993,55,M,PA,2674,2465,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5898694396018982
+00023057_000.png,Infiltration,0,23057,54,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6861651539802551
+00023099_000.png,Infiltration,0,23099,54,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.510993480682373
+00023131_000.png,Cardiomegaly|Consolidation,0,23131,47,M,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,M_jeune,malade,malade,0.8373880982398987
+00023174_001.png,Infiltration,1,23174,75,M,PA,3056,2544,0.139,0.139,1,False,Malade,vieux,M_vieux,malade,malade,0.6660619974136353
+00023175_000.png,Infiltration,0,23175,27,M,PA,2990,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.6496111750602722
+00023181_000.png,No Finding,0,23181,19,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6704106330871582
+00023209_000.png,No Finding,0,23209,33,F,PA,2544,3056,0.139,0.139,1,False,Sain,jeune,F_jeune,sain,sain,0.7089635133743286
+00023211_002.png,Nodule,2,23211,30,F,PA,2558,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.6176338791847229
+00023212_000.png,Effusion|Fibrosis|Pneumothorax,0,23212,51,F,PA,2858,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.649992048740387
+00023230_000.png,No Finding,0,23230,49,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,sain,sain,0.5564821362495422
+00023247_000.png,No Finding,0,23247,67,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6406965851783752
+00023256_000.png,Infiltration,0,23256,37,M,PA,3056,2544,0.139,0.139,1,False,Malade,jeune,M_jeune,sain,malade,0.5063596963882446
+00023261_000.png,Fibrosis,0,23261,24,M,PA,2544,3056,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.5950877666473389
+00023280_001.png,Infiltration,1,23280,64,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5818113088607788
+00023285_000.png,No Finding,0,23285,49,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.6251997947692871
+00023338_000.png,No Finding,0,23338,58,F,PA,2048,2500,0.168,0.168,1,True,Sain,vieux,F_vieux,sain,sain,0.6763834953308105
+00023352_000.png,Infiltration,0,23352,16,F,PA,2048,2500,0.168,0.168,1,False,Malade,jeune,F_jeune,sain,malade,0.7677260637283325
+00023373_000.png,No Finding,0,23373,26,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.777072012424469
+00023401_000.png,No Finding,0,23401,23,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8145918250083923
+00023436_000.png,No Finding,0,23436,29,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.801937460899353
+00023447_000.png,No Finding,0,23447,39,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8670080304145813
+00023450_000.png,No Finding,0,23450,32,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8380135893821716
+00023478_000.png,No Finding,0,23478,38,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.7699657082557678
+00023480_000.png,No Finding,0,23480,39,F,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.725954532623291
+00023488_000.png,No Finding,0,23488,19,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8813712000846863
+00023564_000.png,Fibrosis,0,23564,48,M,PA,2500,2048,0.168,0.168,1,True,Malade,jeune,M_jeune,sain,malade,0.7194764614105225
+00023625_000.png,No Finding,0,23625,30,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.820840060710907
+00023686_000.png,No Finding,0,23686,34,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.7183992266654968
+00023687_000.png,No Finding,0,23687,52,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.8938767910003662
+00023732_000.png,No Finding,0,23732,32,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.6128296852111816
+00023737_000.png,No Finding,0,23737,46,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.6601961255073547
+00023738_000.png,No Finding,0,23738,30,F,PA,2594,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7371140122413635
+00023739_000.png,No Finding,0,23739,36,M,PA,2594,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.638960063457489
+00023756_000.png,No Finding,0,23756,33,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7672383189201355
+00023766_000.png,No Finding,0,23766,48,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5178673267364502
+00023778_000.png,No Finding,0,23778,34,M,PA,2970,2825,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.598321259021759
+00023802_000.png,Cardiomegaly|Infiltration,0,23802,57,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.607100248336792
+00023820_000.png,No Finding,0,23820,32,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5334509611129761
+00023926_000.png,No Finding,0,23926,36,M,PA,2992,2893,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5812056064605713
+00023932_000.png,No Finding,0,23932,35,M,PA,2992,2917,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.7909876108169556
+00023936_000.png,No Finding,0,23936,40,F,PA,2048,2500,0.168,0.168,1,False,Sain,jeune,F_jeune,sain,sain,0.7276232242584229
+00023938_000.png,No Finding,0,23938,20,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7298778891563416
+00023965_000.png,No Finding,0,23965,36,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.806735098361969
+00023971_000.png,No Finding,0,23971,29,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6831353306770325
+00023973_000.png,No Finding,0,23973,35,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5019111633300781
+00024009_000.png,No Finding,0,24009,36,F,PA,2558,2505,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5000301003456116
+00024026_000.png,No Finding,0,24026,31,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5939720869064331
+00024032_000.png,No Finding,0,24032,22,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5454626083374023
+00024039_000.png,Infiltration,0,24039,38,F,PA,2310,2705,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5919691324234009
+00024055_000.png,No Finding,0,24055,35,F,PA,2048,2500,0.168,0.168,1,True,Sain,jeune,F_jeune,sain,sain,0.8255490064620972
+00024091_000.png,No Finding,0,24091,31,F,PA,2466,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7374386787414551
+00024107_000.png,Cardiomegaly,0,24107,28,F,PA,2302,2406,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7612496614456177
+00024109_000.png,No Finding,0,24109,48,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5117416381835938
+00024120_000.png,No Finding,0,24120,32,F,PA,2486,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7612467408180237
+00024157_000.png,No Finding,0,24157,31,F,PA,2690,2793,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8281736969947815
+00024177_000.png,No Finding,0,24177,33,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5688145756721497
+00024183_000.png,Infiltration,0,24183,58,F,PA,2794,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.508040726184845
+00024186_000.png,No Finding,0,24186,30,F,PA,2210,2608,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.5075223445892334
+00024238_000.png,No Finding,0,24238,26,M,PA,2742,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5836547613143921
+00024300_000.png,No Finding,0,24300,31,F,PA,2488,2673,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7062140107154846
+00024354_000.png,No Finding,0,24354,27,M,PA,2992,2921,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.7392244338989258
+00024373_000.png,No Finding,0,24373,30,F,PA,2454,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6916307806968689
+00024409_000.png,No Finding,0,24409,51,M,PA,2500,2048,0.168,0.168,1,True,Sain,vieux,M_vieux,sain,sain,0.6774581670761108
+00024421_000.png,No Finding,0,24421,35,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5538129210472107
+00024423_000.png,No Finding,0,24423,36,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7464044094085693
+00024426_000.png,No Finding,0,24426,32,M,AP,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.7447012066841125
+00024474_000.png,No Finding,0,24474,16,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5361504554748535
+00024524_000.png,Atelectasis|Pneumonia,0,24524,35,M,PA,2586,2821,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.577182948589325
+00024552_000.png,No Finding,0,24552,25,M,PA,2846,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5650433301925659
+00024555_000.png,No Finding,0,24555,42,M,PA,2500,2048,0.168,0.168,1,True,Sain,jeune,M_jeune,sain,sain,0.8436883687973022
+00024556_000.png,No Finding,0,24556,34,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6838101148605347
+00024565_000.png,No Finding,0,24565,43,F,PA,2634,2603,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5245451927185059
+00024571_000.png,No Finding,0,24571,41,M,PA,2500,2048,0.168,0.168,1,False,Sain,jeune,M_jeune,sain,sain,0.7124576568603516
+00024578_000.png,No Finding,0,24578,32,M,PA,2992,2741,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6404223442077637
+00024589_000.png,No Finding,0,24589,37,M,PA,2974,2407,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.7258691787719727
+00024624_000.png,No Finding,0,24624,32,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.695783793926239
+00024729_000.png,No Finding,0,24729,36,F,PA,2316,2936,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8134987354278564
+00024747_000.png,No Finding,0,24747,22,F,PA,2622,2705,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.6531699299812317
+00024788_000.png,No Finding,0,24788,29,M,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.7459875345230103
+00024802_000.png,No Finding,0,24802,19,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.5146164894104004
+00024828_000.png,No Finding,0,24828,31,F,PA,2106,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7764925956726074
+00024901_001.png,Infiltration,1,24901,42,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.5556507706642151
+00024907_000.png,No Finding,0,24907,48,M,PA,3056,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,malade,sain,0.5094221830368042
+00024921_000.png,No Finding,0,24921,45,M,PA,2318,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5065563321113586
+00024937_000.png,No Finding,0,24937,27,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7083101868629456
+00024945_000.png,No Finding,0,24945,39,F,PA,2898,2961,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.5559683442115784
+00024983_000.png,No Finding,0,24983,34,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8258189558982849
+00025021_000.png,No Finding,0,25021,31,M,PA,1745,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.8560965657234192
+00025090_000.png,Atelectasis|Infiltration,0,25090,66,F,PA,2990,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,sain,malade,0.5318170785903931
+00025166_001.png,Infiltration,1,25166,51,M,AP,3056,2544,0.139,0.139,1,False,Malade,vieux,M_vieux,sain,malade,0.5433769226074219
+00025167_001.png,Atelectasis,1,25167,38,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.7663083076477051
+00025214_000.png,Infiltration,0,25214,8,M,PA,2620,2040,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7516613602638245
+00025221_000.png,Infiltration,0,25221,38,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.6052823662757874
+00025233_000.png,No Finding,0,25233,34,M,PA,2858,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.5700333714485168
+00025271_000.png,No Finding,0,25271,68,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,sain,sain,0.6297962069511414
+00025276_000.png,No Finding,0,25276,37,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.59099942445755
+00025291_000.png,Infiltration|Mass,0,25291,60,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.6313945651054382
+00025308_000.png,No Finding,0,25308,68,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.5303949117660522
+00025313_000.png,No Finding,0,25313,39,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.6448180675506592
+00025324_003.png,Infiltration,3,25324,61,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.7611681818962097
+00025332_000.png,Nodule,0,25332,49,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5464521050453186
+00025369_000.png,No Finding,0,25369,39,F,PA,2698,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.585191011428833
+00025381_000.png,Infiltration,0,25381,42,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6016829013824463
+00025389_000.png,No Finding,0,25389,2,F,PA,1550,1167,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.6296082139015198
+00025399_000.png,Atelectasis,0,25399,71,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.8904067873954773
+00025417_000.png,Atelectasis|Effusion,0,25417,52,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.5390991568565369
+00025419_000.png,No Finding,0,25419,55,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.5091460347175598
+00025465_000.png,Atelectasis,0,25465,57,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.5834735631942749
+00025496_000.png,Effusion|Pleural_Thickening,0,25496,91,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.8912419676780701
+00025497_002.png,Infiltration,2,25497,60,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.6598426103591919
+00025498_000.png,Atelectasis|Effusion,0,25498,86,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.9430866837501526
+00025531_000.png,Infiltration,0,25531,70,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.5425058603286743
+00025625_001.png,Atelectasis,1,25625,51,M,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,M_vieux,malade,malade,0.9108411073684692
+00025641_000.png,No Finding,0,25641,72,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.6670312285423279
+00025678_000.png,No Finding,0,25678,39,F,PA,2658,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.5926511883735657
+00025747_000.png,Cardiomegaly|Mass,0,25747,65,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.6102749705314636
+00025750_000.png,Consolidation|Effusion,0,25750,59,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.6608932018280029
+00025806_000.png,Nodule,0,25806,50,M,PA,2782,2717,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.8316400051116943
+00025828_000.png,Mass,0,25828,32,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.6755182147026062
+00025885_000.png,Infiltration,0,25885,53,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.5267984867095947
+00025895_001.png,Atelectasis,1,25895,66,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.6769621968269348
+00025916_000.png,No Finding,0,25916,43,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,jeune,M_jeune,sain,sain,0.6734183430671692
+00025944_000.png,No Finding,0,25944,39,F,AP,3056,2544,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.5853745937347412
+00025957_000.png,No Finding,0,25957,50,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.7405522465705872
+00025968_000.png,No Finding,0,25968,41,F,PA,2892,2948,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.713962197303772
+00025969_000.png,Cardiomegaly,0,25969,55,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.9149088263511658
+00025977_000.png,Atelectasis|Effusion|Mass|Nodule,0,25977,52,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.8872100114822388
+00025978_000.png,Infiltration,0,25978,40,F,PA,2430,2735,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7772431969642639
+00025991_000.png,No Finding,0,25991,51,F,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,F_vieux,malade,sain,0.584907054901123
+00026000_000.png,Mass,0,26000,58,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.8799957633018494
+00026007_000.png,No Finding,0,26007,71,F,PA,2634,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,malade,sain,0.7348477244377136
+00026061_000.png,No Finding,0,26061,42,F,PA,2634,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7004539966583252
+00026100_000.png,Infiltration,0,26100,24,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6164243221282959
+00026104_000.png,No Finding,0,26104,22,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.6667748689651489
+00026121_000.png,Infiltration,0,26121,60,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.5831249356269836
+00026179_002.png,Infiltration,2,26179,26,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.8332014679908752
+00026186_000.png,No Finding,0,26186,60,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.7596769332885742
+00026198_000.png,No Finding,0,26198,23,M,PA,2770,2881,0.143,0.143,1,True,Sain,jeune,M_jeune,malade,sain,0.7674842476844788
+00026209_000.png,Infiltration,0,26209,34,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,sain,malade,0.7538967728614807
+00026252_001.png,Infiltration,1,26252,17,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6745925545692444
+00026294_000.png,No Finding,0,26294,52,F,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.6995512247085571
+00026329_000.png,No Finding,0,26329,54,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6570529937744141
+00026335_000.png,No Finding,0,26335,67,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.6491639614105225
+00026351_000.png,No Finding,0,26351,21,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7286498546600342
+00026357_000.png,Cardiomegaly,0,26357,49,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.5451764464378357
+00026403_000.png,No Finding,0,26403,56,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6096250414848328
+00026528_000.png,No Finding,0,26528,57,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.6450920701026917
+00026531_000.png,No Finding,0,26531,35,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.5177270770072937
+00026542_001.png,Atelectasis,1,26542,61,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,sain,malade,0.5542888641357422
+00026547_000.png,No Finding,0,26547,50,M,PA,2754,2897,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5632815361022949
+00026549_000.png,No Finding,0,26549,64,M,PA,2550,2538,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.7301151156425476
+00026588_000.png,Mass,0,26588,60,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6552203297615051
+00026617_000.png,No Finding,0,26617,44,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.806973934173584
+00026640_000.png,No Finding,0,26640,39,F,PA,2906,2825,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5005742311477661
+00026660_001.png,Effusion|Nodule,1,26660,42,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.5439252853393555
+00026682_000.png,No Finding,0,26682,59,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.5163187384605408
+00026696_000.png,Atelectasis,0,26696,50,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.8718598484992981
+00026710_000.png,No Finding,0,26710,71,M,PA,2992,2991,0.143,0.143,1,False,Sain,vieux,M_vieux,malade,sain,0.6194989681243896
+00026741_000.png,Infiltration,0,26741,19,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.589855968952179
+00026742_000.png,Edema|Pleural_Thickening,0,26742,20,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,malade,malade,0.5336180925369263
+00026774_000.png,No Finding,0,26774,67,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.5590131282806396
+00026819_000.png,Atelectasis,0,26819,56,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,sain,malade,0.5770437717437744
+00026826_000.png,No Finding,0,26826,47,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.7738476395606995
+00026828_007.png,Atelectasis,7,26828,52,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.8769424557685852
+00026851_000.png,No Finding,0,26851,49,M,PA,2936,2839,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5807532072067261
+00026935_000.png,No Finding,0,26935,29,F,PA,2580,2798,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.5824078917503357
+00026948_000.png,No Finding,0,26948,59,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.6468032002449036
+00026950_000.png,No Finding,0,26950,61,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.7066271901130676
+00026998_000.png,Infiltration,0,26998,43,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.6985316872596741
+00027009_000.png,Infiltration,0,27009,45,F,PA,2442,2596,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.6547223329544067
+00027018_000.png,No Finding,0,27018,56,F,PA,2682,2505,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6536272764205933
+00027046_000.png,No Finding,0,27046,18,F,PA,2750,2885,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.7535749673843384
+00027060_000.png,Atelectasis|Effusion|Infiltration,0,27060,50,M,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,M_jeune,malade,malade,0.6028628349304199
+00027063_000.png,No Finding,0,27063,67,M,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.6364953517913818
+00027106_000.png,No Finding,0,27106,30,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5358424782752991
+00027110_000.png,Infiltration,0,27110,29,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5185983180999756
+00027143_000.png,Consolidation|Mass|Nodule|Pleural_Thickening,0,27143,51,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.918165385723114
+00027153_000.png,No Finding,0,27153,21,M,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.5648860931396484
+00027191_000.png,No Finding,0,27191,21,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.5891771912574768
+00027192_000.png,No Finding,0,27192,11,F,PA,2674,2469,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.6570302248001099
+00027195_000.png,Mass,0,27195,59,F,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,F_vieux,malade,malade,0.7588232755661011
+00027196_003.png,Atelectasis|Infiltration,3,27196,20,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.7379603385925293
+00027230_000.png,Consolidation|Mass,0,27230,41,F,PA,2990,2797,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.8290146589279175
+00027248_000.png,No Finding,0,27248,54,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.6962887644767761
+00027285_000.png,Cardiomegaly,0,27285,49,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,sain,malade,0.5842004418373108
+00027288_000.png,No Finding,0,27288,75,M,PA,3056,2544,0.139,0.139,1,False,Sain,vieux,M_vieux,malade,sain,0.6816929578781128
+00027299_000.png,Nodule,0,27299,28,M,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,M_jeune,malade,malade,0.7752703428268433
+00027329_000.png,No Finding,0,27329,23,M,PA,3056,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.7777764797210693
+00027350_000.png,No Finding,0,27350,25,F,PA,2802,2941,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.5172677636146545
+00027351_000.png,No Finding,0,27351,29,M,AP,2844,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,malade,sain,0.7659388780593872
+00027359_002.png,Atelectasis,2,27359,18,F,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,F_jeune,malade,malade,0.5875173211097717
+00027409_000.png,Infiltration,0,27409,53,F,PA,2992,2991,0.143,0.143,1,False,Malade,vieux,F_vieux,malade,malade,0.7810701727867126
+00027427_007.png,Infiltration,7,27427,56,M,AP,3056,2544,0.139,0.139,1,False,Malade,vieux,M_vieux,malade,malade,0.9384724497795104
+00027434_000.png,No Finding,0,27434,17,M,AP,3056,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.5153812170028687
+00027458_000.png,No Finding,0,27458,46,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.7206981778144836
+00027481_000.png,No Finding,0,27481,51,F,PA,2642,2991,0.143,0.143,1,False,Sain,vieux,F_vieux,sain,sain,0.8024019598960876
+00027485_000.png,Effusion|Nodule|Pneumothorax,0,27485,64,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.6273894309997559
+00027489_000.png,Atelectasis|Infiltration,0,27489,44,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,malade,malade,0.538563072681427
+00027520_000.png,No Finding,0,27520,53,F,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,F_vieux,sain,sain,0.6712211966514587
+00027525_000.png,Infiltration,0,27525,49,M,PA,2662,2533,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.5260872840881348
+00027529_000.png,Infiltration,0,27529,31,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,sain,malade,0.5378342270851135
+00027583_000.png,No Finding,0,27583,29,F,PA,1756,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.8297450542449951
+00027589_000.png,Mass,0,27589,14,F,PA,2202,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.7785553336143494
+00027609_000.png,No Finding,0,27609,35,M,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5787596702575684
+00027611_000.png,Atelectasis|Nodule,0,27611,50,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.525240957736969
+00027645_000.png,No Finding,0,27645,25,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.759186863899231
+00027655_000.png,Infiltration,0,27655,54,M,PA,2758,2757,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.6459828019142151
+00027737_000.png,No Finding,0,27737,65,M,PA,2992,2991,0.143,0.143,1,True,Sain,vieux,M_vieux,sain,sain,0.7601947784423828
+00027784_005.png,Infiltration|Pneumonia,5,27784,39,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.6539721488952637
+00027796_000.png,Infiltration,0,27796,22,F,PA,2462,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.6898373365402222
+00027798_000.png,Mass,0,27798,60,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.52961266040802
+00027826_000.png,No Finding,0,27826,60,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.6871611475944519
+00027828_000.png,No Finding,0,27828,73,M,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,malade,sain,0.5737494230270386
+00027838_000.png,Nodule,0,27838,48,F,PA,2992,2991,0.143,0.143,1,True,Malade,jeune,F_jeune,malade,malade,0.5181807279586792
+00027839_000.png,Nodule,0,27839,56,F,PA,2992,2729,0.143,0.143,1,True,Malade,vieux,F_vieux,sain,malade,0.5318940877914429
+00027857_000.png,No Finding,0,27857,31,F,PA,2538,2409,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6257551908493042
+00027980_000.png,Infiltration|Nodule,0,27980,21,M,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,M_jeune,sain,malade,0.7354552745819092
+00027988_000.png,No Finding,0,27988,55,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.5768489241600037
+00028014_001.png,Consolidation|Effusion,1,28014,55,M,PA,2992,2991,0.143,0.143,1,True,Malade,vieux,M_vieux,malade,malade,0.7393913269042969
+00028026_000.png,Nodule,0,28026,41,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.9091100096702576
+00028037_000.png,No Finding,0,28037,27,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6672854423522949
+00028044_000.png,Edema|Effusion|Infiltration,0,28044,27,F,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,F_jeune,malade,malade,0.9218024611473083
+00028057_000.png,No Finding,0,28057,10,F,PA,2378,2297,0.143,0.143,1,True,Sain,jeune,F_jeune,malade,sain,0.7155338525772095
+00028064_000.png,No Finding,0,28064,61,M,PA,2570,2525,0.143,0.143,1,True,Sain,vieux,M_vieux,malade,sain,0.8869583606719971
+00028083_000.png,No Finding,0,28083,18,M,PA,2838,2991,0.143,0.143,1,True,Sain,jeune,M_jeune,sain,sain,0.5985653400421143
+00028090_000.png,Infiltration,0,28090,50,F,PA,2992,2991,0.143,0.143,1,False,Malade,jeune,F_jeune,malade,malade,0.508734405040741
+00028101_000.png,No Finding,0,28101,25,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.8342541456222534
+00028113_000.png,No Finding,0,28113,59,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.7238626480102539
+00028129_000.png,No Finding,0,28129,22,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6774668097496033
+00028148_000.png,Infiltration,0,28148,19,F,AP,2544,3056,0.139,0.139,1,True,Malade,jeune,F_jeune,sain,malade,0.6135851144790649
+00028164_000.png,Atelectasis|Infiltration,0,28164,42,M,PA,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,sain,malade,0.5386638045310974
+00028229_000.png,No Finding,0,28229,36,F,PA,2992,2991,0.143,0.143,1,True,Sain,jeune,F_jeune,sain,sain,0.6878505945205688
+00028241_000.png,No Finding,0,28241,60,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.6709909439086914
+00028324_001.png,Mass|Pleural_Thickening,1,28324,62,F,PA,1842,2021,0.194311,0.194311,1,True,Malade,vieux,F_vieux,sain,malade,0.6024300456047058
+00028329_000.png,Nodule,0,28329,66,M,PA,3056,2544,0.139,0.139,1,False,Malade,vieux,M_vieux,sain,malade,0.8093366026878357
+00028343_000.png,No Finding,0,28343,65,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.734832227230072
+00028349_000.png,No Finding,0,28349,42,F,PA,2992,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,sain,sain,0.7327201962471008
+00028355_000.png,No Finding,0,28355,38,F,AP,3056,2544,0.139,0.139,1,True,Sain,jeune,F_jeune,malade,sain,0.5659286379814148
+00028357_002.png,Atelectasis,2,28357,52,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.5929608941078186
+00028358_001.png,Infiltration,1,28358,63,M,PA,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.5406277179718018
+00028380_001.png,Mass,1,28380,55,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,sain,malade,0.5588259100914001
+00028406_000.png,No Finding,0,28406,25,F,PA,2530,2991,0.143,0.143,1,False,Sain,jeune,F_jeune,malade,sain,0.5480483770370483
+00028435_000.png,No Finding,0,28435,41,M,PA,2946,2943,0.143,0.143,1,False,Sain,jeune,M_jeune,malade,sain,0.5063560009002686
+00028445_000.png,No Finding,0,28445,30,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.5218399167060852
+00028460_000.png,No Finding,0,28460,34,F,PA,1748,1826,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.7274484634399414
+00028496_000.png,No Finding,0,28496,54,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.7693207263946533
+00028564_000.png,No Finding,0,28564,33,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.6700889468193054
+00028586_000.png,No Finding,0,28586,27,M,PA,3040,2544,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.7861528396606445
+00028594_000.png,No Finding,0,28594,54,M,PA,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,sain,sain,0.6113734841346741
+00028596_000.png,No Finding,0,28596,36,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.7024096250534058
+00028597_000.png,No Finding,0,28597,43,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,malade,sain,0.5781709551811218
+00028627_000.png,No Finding,0,28627,61,M,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,malade,sain,0.6296632289886475
+00028632_001.png,Cardiomegaly|Effusion|Pleural_Thickening,1,28632,60,F,PA,2021,2021,0.194311,0.194311,1,False,Malade,vieux,F_vieux,malade,malade,0.5277551412582397
+00028645_000.png,No Finding,0,28645,59,M,AP,3056,2544,0.139,0.139,1,False,Sain,vieux,M_vieux,malade,sain,0.6041787266731262
+00028682_000.png,No Finding,0,28682,55,M,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,malade,sain,0.6080499291419983
+00028685_000.png,No Finding,0,28685,59,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.5956830978393555
+00028686_002.png,Infiltration,2,28686,25,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.5852695107460022
+00028697_000.png,No Finding,0,28697,43,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.6752788424491882
+00028718_000.png,Infiltration,0,28718,40,F,PA,1701,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.6543606519699097
+00028719_000.png,Infiltration,0,28719,53,F,PA,2544,3056,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.6256634593009949
+00028797_000.png,No Finding,0,28797,44,F,PA,2544,3056,0.139,0.139,1,False,Sain,jeune,F_jeune,sain,sain,0.8267267942428589
+00028899_001.png,Effusion,1,28899,60,F,PA,2021,2021,0.194311,0.194311,1,False,Malade,vieux,F_vieux,malade,malade,0.6021804213523865
+00028922_000.png,No Finding,0,28922,69,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.5501348972320557
+00028929_000.png,No Finding,0,28929,25,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.6383267045021057
+00028940_002.png,Infiltration,2,28940,63,M,PA,2544,3056,0.139,0.139,1,False,Malade,vieux,M_vieux,sain,malade,0.6513465642929077
+00028969_000.png,No Finding,0,28969,39,M,PA,2020,2020,0.194311,0.194311,1,False,Sain,jeune,M_jeune,sain,sain,0.692367434501648
+00028999_000.png,Atelectasis,0,28999,60,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.923223912715912
+00029000_000.png,No Finding,0,29000,45,M,PA,2020,2021,0.194311,0.194311,1,False,Sain,jeune,M_jeune,sain,sain,0.6478484869003296
+00029001_000.png,No Finding,0,29001,55,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.6603522896766663
+00029015_000.png,Effusion|Nodule,0,29015,62,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,M_vieux,malade,malade,0.6683131456375122
+00029040_000.png,No Finding,0,29040,26,M,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.7904641032218933
+00029043_002.png,Cardiomegaly,2,29043,73,M,PA,2021,2021,0.194311,0.194311,1,False,Malade,vieux,M_vieux,sain,malade,0.6481055021286011
+00029053_000.png,No Finding,0,29053,74,M,AP,3056,2544,0.139,0.139,1,True,Sain,vieux,M_vieux,malade,sain,0.5250763893127441
+00029058_004.png,Atelectasis|Effusion|Infiltration,4,29058,31,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.6824271082878113
+00029060_000.png,No Finding,0,29060,48,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,jeune,M_jeune,sain,sain,0.6320154666900635
+00029087_000.png,No Finding,0,29087,52,F,PA,1891,1832,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.692778468132019
+00029100_000.png,No Finding,0,29100,36,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.5729936957359314
+00029116_000.png,No Finding,0,29116,38,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.7548384666442871
+00029122_000.png,Infiltration,0,29122,26,F,PA,2021,2020,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.5571932196617126
+00029212_000.png,No Finding,0,29212,46,F,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,F_jeune,sain,sain,0.7757493853569031
+00029221_003.png,Cardiomegaly,3,29221,30,M,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,M_jeune,malade,malade,0.9046376347541808
+00029225_000.png,Cardiomegaly|Mass,0,29225,70,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,M_vieux,malade,malade,0.6428886651992798
+00029239_001.png,Infiltration,1,29239,20,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.5216991305351257
+00029251_000.png,Infiltration,0,29251,40,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,malade,malade,0.5651261806488037
+00029334_000.png,Pleural_Thickening,0,29334,65,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.8943469524383545
+00029344_000.png,No Finding,0,29344,73,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.5332604646682739
+00029345_000.png,No Finding,0,29345,21,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.7138826251029968
+00029366_000.png,No Finding,0,29366,59,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.6891674399375916
+00029378_000.png,No Finding,0,29378,58,F,PA,2544,3056,0.139,0.139,1,True,Sain,vieux,F_vieux,sain,sain,0.7873537540435791
+00029407_000.png,No Finding,0,29407,52,F,PA,2544,3056,0.139,0.139,1,False,Sain,vieux,F_vieux,sain,sain,0.7973316311836243
+00029412_000.png,Effusion|Infiltration,0,29412,41,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.5134027600288391
+00029425_000.png,Hernia,0,29425,74,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,F_vieux,malade,malade,0.5373609066009521
+00029438_000.png,No Finding,0,29438,25,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.7469943165779114
+00029472_000.png,Cardiomegaly,0,29472,89,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,F_vieux,malade,malade,0.5048101544380188
+00029548_000.png,Infiltration,0,29548,22,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.6805806756019592
+00029556_000.png,No Finding,0,29556,33,M,PA,2021,2011,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.7175740003585815
+00029572_002.png,Cardiomegaly,2,29572,35,F,AP,3056,2544,0.139,0.139,1,True,Malade,jeune,F_jeune,malade,malade,0.8222827315330505
+00029600_000.png,No Finding,0,29600,41,F,PA,2021,2021,0.194311,0.194311,1,False,Sain,jeune,F_jeune,sain,sain,0.6261895298957825
+00029630_000.png,Infiltration,0,29630,37,M,PA,2021,2021,0.194311,0.194311,1,False,Malade,jeune,M_jeune,sain,malade,0.6651145219802856
+00029637_000.png,No Finding,0,29637,54,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.6374132037162781
+00029638_000.png,Effusion|Mass,0,29638,63,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,F_vieux,sain,malade,0.7146117091178894
+00029653_000.png,No Finding,0,29653,46,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.7450433373451233
+00029712_000.png,Infiltration,0,29712,52,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,F_vieux,sain,malade,0.6054871678352356
+00029744_006.png,Cardiomegaly|Effusion,6,29744,16,M,AP,3056,2544,0.139,0.139,1,False,Malade,jeune,M_jeune,malade,malade,0.6716393232345581
+00029751_000.png,No Finding,0,29751,21,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,jeune,M_jeune,sain,sain,0.7344617247581482
+00029799_001.png,Cardiomegaly|Effusion,1,29799,51,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,sain,malade,0.713250458240509
+00029828_000.png,Infiltration,0,29828,47,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.5784473419189453
+00029870_001.png,Infiltration,1,29870,65,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.7791763544082642
+00029879_000.png,No Finding,0,29879,22,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,malade,sain,0.503319501876831
+00029890_000.png,No Finding,0,29890,46,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.734847903251648
+00029906_000.png,Cardiomegaly,0,29906,70,M,PA,2021,2021,0.194311,0.194311,1,False,Malade,vieux,M_vieux,malade,malade,0.8626815676689148
+00029993_000.png,Nodule,0,29993,66,F,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,F_vieux,malade,malade,0.9084420204162598
+00029995_000.png,No Finding,0,29995,21,F,PA,1740,1706,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.724197506904602
+00030008_000.png,No Finding,0,30008,54,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.5047277808189392
+00030019_000.png,No Finding,0,30019,52,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.6834219694137573
+00030048_000.png,No Finding,0,30048,42,M,PA,2015,2021,0.194311,0.194311,1,False,Sain,jeune,M_jeune,sain,sain,0.6042481660842896
+00030054_000.png,Atelectasis,0,30054,52,M,PA,2021,2021,0.194311,0.194311,1,False,Malade,vieux,M_vieux,sain,malade,0.6509041786193848
+00030094_000.png,Infiltration,0,30094,22,F,PA,2021,2021,0.194311,0.194311,1,True,Malade,jeune,F_jeune,sain,malade,0.6539354920387268
+00030126_000.png,No Finding,0,30126,67,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.5782596468925476
+00030159_000.png,Mass,0,30159,38,M,PA,2021,2021,0.194311,0.194311,1,False,Malade,jeune,M_jeune,sain,malade,0.6708889007568359
+00030168_000.png,No Finding,0,30168,26,M,PA,3056,2544,0.139,0.139,1,False,Sain,jeune,M_jeune,sain,sain,0.7933407425880432
+00030182_000.png,No Finding,0,30182,31,M,PA,2020,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.5819231271743774
+00030254_000.png,Infiltration,0,30254,47,M,PA,2021,2016,0.194311,0.194311,1,True,Malade,jeune,M_jeune,sain,malade,0.6453608870506287
+00030255_000.png,No Finding,0,30255,29,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.6730148792266846
+00030264_000.png,No Finding,0,30264,74,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,M_vieux,sain,sain,0.7729781866073608
+00030267_001.png,Nodule,1,30267,61,M,PA,2020,2021,0.194311,0.194311,1,True,Malade,vieux,M_vieux,sain,malade,0.6217029690742493
+00030327_000.png,Atelectasis,0,30327,73,M,AP,3056,2544,0.139,0.139,1,True,Malade,vieux,M_vieux,malade,malade,0.8829689621925354
+00030340_000.png,No Finding,0,30340,11,M,AP,2544,3056,0.139,0.139,1,True,Sain,jeune,M_jeune,malade,sain,0.6045494079589844
+00030348_000.png,No Finding,0,30348,58,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.7111544609069824
+00030377_000.png,No Finding,0,30377,34,M,PA,2021,2020,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.6961718201637268
+00030394_000.png,Atelectasis|Mass,0,30394,60,M,PA,2021,2020,0.194311,0.194311,1,False,Malade,vieux,M_vieux,sain,malade,0.5192759037017822
+00030463_000.png,No Finding,0,30463,34,M,PA,1882,2021,0.194308,0.194308,1,True,Sain,jeune,M_jeune,sain,sain,0.7497491836547852
+00030465_000.png,No Finding,0,30465,25,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.785270094871521
+00030470_000.png,No Finding,0,30470,45,M,PA,2544,3056,0.139,0.139,1,True,Sain,jeune,M_jeune,sain,sain,0.674127995967865
+00030491_000.png,No Finding,0,30491,67,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,vieux,F_vieux,sain,sain,0.5252993702888489
+00030541_000.png,Nodule,0,30541,70,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,M_vieux,sain,malade,0.5301412343978882
+00030545_000.png,Infiltration,0,30545,62,F,PA,1743,1795,0.194314,0.194314,1,True,Malade,vieux,F_vieux,sain,malade,0.6947113275527954
+00030578_000.png,No Finding,0,30578,29,F,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.6489825248718262
+00030605_000.png,Infiltration,0,30605,64,M,PA,2021,2021,0.194311,0.194311,1,True,Malade,vieux,M_vieux,sain,malade,0.7287490367889404
+00030617_000.png,No Finding,0,30617,41,F,PA,2020,2021,0.194311,0.194311,1,True,Sain,jeune,F_jeune,sain,sain,0.659665584564209
+00030661_000.png,Atelectasis,0,30661,53,M,PA,1715,2021,0.194311,0.194311,1,False,Malade,vieux,M_vieux,sain,malade,0.6234299540519714
+00030681_000.png,No Finding,0,30681,39,M,PA,2021,2021,0.194311,0.194311,1,True,Sain,jeune,M_jeune,sain,sain,0.7115665078163147
+00030732_000.png,No Finding,0,30732,57,M,PA,2020,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.5919962525367737
+00030743_000.png,No Finding,0,30743,61,M,PA,2021,2021,0.194311,0.194311,1,False,Sain,vieux,M_vieux,sain,sain,0.6655520796775818
+00030794_000.png,No Finding,0,30794,38,F,PA,2021,2021,0.194311,0.194311,1,False,Sain,jeune,F_jeune,sain,sain,0.7537415027618408
+00030805_000.png,No Finding,0,30805,27,M,PA,2048,2500,0.171,0.171,1,True,Sain,jeune,M_jeune,sain,sain,0.7423876523971558

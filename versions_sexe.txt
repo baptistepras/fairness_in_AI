@@ -1,0 +1,55 @@
+(Femme True Positive Rate, Homme True Positive Rate, Femme False Positive Rate,
+Homme False Positive Rate, Differénce True Positive Rate, Différence False Positive Rate)
+Métriques Fairness: FTPR= | HTPR= | FFPR= | HFPR= | Diff TPR= | Diff FPR=
+Performances: balanced_accuracy= | accuracy=
+
+
+
+ORDRES DE PRIORITÉ POUR LES CLASSEMENTS:
+1) ON CHERCHE À MAXIMISER LE SUCCÈS EN TP, EN GARDANT QUAND MÊME UN MINIMUM DE NP
+2) ON CHERCHE À MINIMISER LES DIFFÉRENCES DE TP, EN GARDANT QUAND MÊME UN MINIMUM DE FP
+
+
+
+Différents classifier sur le pré-processing:
+classifier version 0 (best-val-loss.ckpt): Aucun processing, tous les poids initialisés à 
+Métriques Fairness: FTPR=0.440 | HTPR=0.418 | FFPR=0.076 | HFPR=0.093 | Diff TPR=0.022 | Diff FPR=0.017
+Performances: balanced_accuracy=0.671 | accuracy=0.687
+Conclusion: Ce modèle classifie mieux les femmes malades que les hommes malades, et donne plus souvent des hommes
+sains comme étant malades que les femmes. Il classifie donc bien mieux les femmes.
+
+classifier version 1 (best-val-loss-v1.ckpt): On a repondéré selon la répartition hommes-femmes et 
+selon leur répartition sain-malade dans dans le dataset (HS=0.895, HM=0.992, FS=0.987 , FM=1.161)
+Métriques Fairness: FTPR=0.721 | HTPR=0.661 | FFPR=0.266 | HFPR=0.272 | Diff TPR=0.060 | Diff FPR=0.006
+Performances: balanced_accuracy=0.710 | accuracy=0.711
+Conclusion: Ce modèle classifie mieux les femmes malades que les hommes malades, et donne plus souvent des hommes
+sains comme étant malades que les femmes. Il classifie donc bien mieux les femmes.
+
+classifier version 2 (best-val-loss-v2.ckpt): On a repondéré selon la formule de Kamiran-Calders
+(HS=1.013, HM=0.985, FS=0.985, FM=1.017)
+Métriques Fairness: FTPR=0.836 | HTPR=0.886 | FFPR=0.434 | HFPR=0.456 | Diff TPR=0.050 | Diff FPR=0.022
+Performances: balanced_accuracy=0.709 | accuracy=0.699
+Conclusion: Ce modèle classifie mieux les hommes malades que les femmes malades, et donne plus souvent des hommes
+sains comme étant malades que les femmes. Il a donc une forte tendance à prédire malade pour un homme.
+
+
+
+Différents classifier sur le post-processing 'reject_option':
+classifier version 0 (best-val-loss.ckpt): best threshold = 0.539
+Métriques Fairness: FTPR=0.440 | HTPR=0.439 | FFPR=0.076 | HFPR=0.095 | Diff TPR=0.000 | Diff FPR=0.019
+Performances: balanced_accuracy=0.677 | accuracy=0.692
+Conclusion: Ce modèle classifie aussi les femmes malades que les hommes malades, et donne plus souvent des hommes
+sains comme étant malades que les femmes. Il classifie donc mieux les femmes.
+
+classifier version 1 (best-val-loss-v1.ckpt): best threshold = 0.500 (pas de post-processing)
+Métriques Fairness: FTPR=0.721 | HTPR=0.661 | FFPR=0.266 | HFPR=0.272 | Diff TPR=0.060 | Diff FPR=0.006
+Performances: balanced_accuracy=0.710 | accuracy=0.711
+Conclusion: Ce modèle classifie aussi les femmes malades que les hommes malades, et donne plus souvent des hommes
+sains comme étant malades que les femmes. Il classifie donc bien mieux les femmes.
+
+classifier version 2 (best-val-loss-v2.ckpt): best threshold = 0.508
+Métriques Fairness: FTPR=0.848 | HTPR=0.881 | FFPR=0.458 | HFPR=0.437 | Diff TPR=0.033 | Diff FPR=0.021
+Performances: balanced_accuracy=0.710 | accuracy=0.700
+Conclusion: Ce modèle classifie mieux les hommes malades que les femmes malades, et donne plus souvent des femmes
+saines comme étant malades que les hommes. Il classifie donc bien mieux les hommes.
+

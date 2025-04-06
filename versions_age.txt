@@ -1,0 +1,56 @@
+(Jeune True Positive Rate, Vieux True Positive Rate, Jeune False Positive Rate,
+Vieux False Positive Rate, Differénce True Positive Rate, Différence False Positive Rate)
+Métriques Fairness: JTPR= | VTPR= | JFPR= | VFPR= | Diff TPR= | Diff FPR=
+Performances: balanced_accuracy= | accuracy=
+
+
+
+ORDRES DE PRIORITÉ POUR LES CLASSEMENTS:
+1) ON CHERCHE À MAXIMISER LE SUCCÈS EN TP, EN GARDANT QUAND MÊME UN MINIMUM DE NP
+2) ON CHERCHE À MINIMISER LES DIFFÉRENCES DE TP, EN GARDANT QUAND MÊME UN MINIMUM DE FP
+
+
+
+Différents classifier sur le pré-processing:
+classifier version 0 (best-val-loss.ckpt): Aucun processing, tous les poids initialisés à 1
+Métriques Fairness: JTPR=0.399 | VTPR=0.453 | JFPR=0.070 | VFPR=0.109 | Diff TPR=0.054 | Diff FPR=0.039
+Performances: balanced_accuracy=0.671 | accuracy=0.687
+Conclusion: Ce modèle classifie mieux les vieux malades que les jeunes malades, et donne plus souvent des vieux
+sains comme étant malades que les jeunes. Il a donc une forte tendance à plus prédire malade pour un vieux.
+
+classifier version 3 (best-val-loss-v3.ckpt): On a repondéré selon la répartition vieux-jeunes et 
+selon leur répartition sain-malade dans dans le dataset (VS=1.242, VM=1.005, JS=0.755, JM=1.143)
+Métriques Fairness: JTPR=0.515 | VTPR=0.560 | JFPR=0.155 | VFPR=0.199 | Diff TPR=0.045 | Diff FPR=0.044
+Performances: balanced_accuracy=0.684 | accuracy=0.693
+Conclusion: Ce modèle classifie mieux les vieux malades que les jeunes malades, et donne plus souvent des vieux
+sains comme étant malades que les jeunes. Il a donc une forte tendance à plus prédire malade pour un vieux.
+
+classifier version 4 (best-val-loss-v4.ckpt): On a repondéré selon la formule de Kamiran-Calders
+(VS=1.190, VM=0.846, JS=0.884, JM=1.175)
+Métriques Fairness: JTPR=0.668 | VTPR=0.804 | JFPR=0.276 | VFPR=0.371 | Diff TPR=0.137 | Diff FPR=0.095
+Performances: balanced_accuracy=0.714 | accuracy=0.713
+Conclusion: Ce modèle classifie mieux les vieux malades que les jeunes malades, et donne plus souvent des vieux
+sains comme étant malades que les jeunes. Il a donc une forte tendance à plus prédire malade pour un vieux.
+
+
+
+Différents classifier sur le post-processing 'reject_option':
+classifier version 0 (best-val-loss.ckpt): best threshold = 0.525
+Métriques Fairness: JTPR=0.433 | VTPR=0.434 | JFPR=0.085 | VFPR=0.079 | Diff TPR=0.001 | Diff FPR=0.005
+Performances: balanced_accuracy=0.676 | accuracy=0.691
+Conclusion: Ce modèle classifie aussi bien les vieux malades que les jeunes malades, et donne plus souvent des jeunes
+sains comme étant malades que les vieux. Il a donc une tendance à plus prédire malade pour un jeune.
+
+classifier version 3 (best-val-loss-v3.ckpt): best threshold = 0.519
+Métriques Fairness: JTPR=0.530 | VTPR=0.534 | JFPR=0.179 | VFPR=0.182 | Diff TPR=0.003 | Diff FPR=0.003
+Performances: balanced_accuracy=0.676 | accuracy=0.685
+Conclusion: Ce modèle classifie presque aussi bien les vieux malades que les jeunes malades, et donne presque aussi souvent 
+des vieux sains comme étant malades que les jeunes. Il semble donc être presque parfaitement équilibré.
+
+classifier version 4 (best-val-loss-v4.ckpt): best threshold = 0.560
+Métriques Fairness: JTPR=0.735 | VTPR=0.735 | JFPR=0.348 | VFPR=0.291 | Diff TPR=0.000 | Diff FPR=0.057
+Performances: balanced_accuracy=0.704 | accuracy=0.702
+Conclusion: Ce modèle classifie aussi bien les vieux malades que les jeunes malades, et donne plus souvent 
+des jeunes sains comme étant malades que les vieux. Il a donc une tendance à plus prédire malade pour un jeune.
+
+

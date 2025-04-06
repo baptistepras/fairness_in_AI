@@ -1,0 +1,59 @@
+(Jeune Femme True Positive Rate, Vieille Femme True Positive Rate, Jeune Homme True Positive Rate
+Vieil Homme Positive Rate, Jeune Femme False Positive Rate, Vieille Femme False Positive Rate, 
+Jeune Homme False Positive Rate Vieil False Positive Rate, Differénce True Positive Rate, Différence False Positive Rate)
+Métriques Fairness: JFTPR= | VFTPR= | JHTPR= | VHTPR= | JFFPR= 
+                  | VFFPR= | JHFPR= | VHFPR= | Diff TPR= | Diff FPR=
+Performances: balanced_accuracy= | accuracy=
+
+
+
+ORDRES DE PRIORITÉ POUR LES CLASSEMENTS:
+1) ON CHERCHE À MAXIMISER LE SUCCÈS EN TP, EN GARDANT QUAND MÊME UN MINIMUM DE NP
+2) ON CHERCHE À MINIMISER LES DIFFÉRENCES DE TP, EN GARDANT QUAND MÊME UN MINIMUM DE FP
+
+
+
+Différents classifier sur le pré-processing:
+classifier version 0 (best-val-loss.ckpt): Aucun processing, tous les poids initialisés à 1
+Métriques Fairness: JFTPR=0.385 | VFTPR=0.486 | JHTPR=0.411 | VHTPR=0.424 | JFFPR=0.073 
+                  | VFFPR=0.083 | JHFPR=0.068 | VHFPR=0.130 | Diff TPR=0.101 | Diff FPR=0.062
+Performances: balanced_accuracy=0.671 | accuracy=0.687
+Conclusion: Ce modèle classifie globalement mieux les femmes et les vieux.
+
+classifier version 5 (best-val-loss-v5.ckpt): On a repondéré selon la répartition vieux-jeunes+hommes-femmmes et 
+selon leur répartition sain-malade dans dans le dataset
+(JFM=1.267, VFM=1.071, JHM=1.042, VHM=0.947, JFS=0.759, VFS=1.410, JHS=0.750, VHS=1.109)
+Métriques Fairness: JFTPR=0.493 | VFTPR=0.646 | JHTPR=0.606 | VHTPR=0.652 | JFFPR=0.162
+                  | VFFPR=0.158 | JHFPR=0.228 | VHFPR=0.302 | Diff TPR=0.158 | Diff FPR=0.144
+Performances: balanced_accuracy=0.697 | accuracy=0.703
+Conclusion: Ce modèle a une forte tendance à prédire plus de positifs pour les vieux et légèrement plus pour les hommes.
+
+classifier version 6 (best-val-loss-v6.ckpt): On a repondéré selon la formule de Kamiran-Calders
+(JFM=1.247, VFM=0.823, JHM=1.116, VHM=0.866, JFS=0.852, VFS=1.234, JHS=0.916, VHS=1.157)
+Métriques Fairness: JFTPR=0.682 | VFTPR = 0.846 | JHTPR=0.756 | VHTPR=0.869 | JFFPR=0.296
+                  | VFFPR=0.406 | JHFPR=0.376 | VHFPR=0.550 | Diff TPR=0.186 | Diff FPR=0.255
+Performances: balanced_accuracy=0.701 | accuracy=0.695
+Conclusion: Ce modèle a une très forte tendance à prédire plus de positifs pour les vieux et pour les hommes.
+
+
+
+Différents classifier sur le post-processing 'reject_option':
+classifier version 0 (best-val-loss.ckpt): best threshold = 0.519
+Métriques Fairness: JFTPR=0.405 | VFTPR=0.486 | JHTPR=0.411 | VHTPR=0.409 | JFFPR=0.085 
+                  | VFFPR=0.083 | JHFPR=0.068 | VHFPR=0.089 | Diff TPR=0.080 | Diff FPR=0.021
+Performances: balanced_accuracy=0.674 | accuracy=0.690
+Conclusion: Ce modèle classifie globalement mieux les femmes et les vieux.
+
+classifier version 5 (best-val-loss-v5.ckpt): best threshold = 0.555
+Métriques Fairness: JFTPR=0.581 | VFTPR=0.646 | JHTPR=0.606 | VHTPR=0.576 | JFFPR=0.211
+                  | VFFPR=0.158 | JHFPR=0.228 | VHFPR=0.225 | Diff TPR=0.070 | Diff FPR=0.070
+Performances: balanced_accuracy=0.696 | accuracy=0.702
+Conclusion: Ce modèle a une forte tendance à prédire plus de positifs pour les vieux et est assez équilibré sur le genre.
+
+classifier version 6 (best-val-loss-v6.ckpt): best threshold = 0.586
+Métriques Fairness: JFTPR=0.757 | VFTPR=0.846 | JHTPR=0.756 | VHTPR=0.747 | JFFPR=0.421
+                  | VFFPR=0.406 | JHFPR=0.376 | VHFPR=0.432 | Diff TPR=0.098 | Diff FPR=0.056
+Performances: balanced_accuracy=0.685 | accuracy=0.679
+Conclusion: Ce modèle a une légère tendance à prédire plus de positifs pour les vieux et légèrement plus pour les femmes.
+
+
