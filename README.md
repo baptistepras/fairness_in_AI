@@ -6,6 +6,8 @@ The only code made by me is in the file `main.py`, the other `.py` and `.ipynb` 
 
 # How to use it ?
 
+Download or replicate the environment `fairness-environment.yml`.
+
 Using `train_classifier()` in `train_classifier.ipynb()` creates a new model, saved in a .ckpt extension in the repository `expe_log`.
 Using `pred_classifier()` in `train_classifier.ipynb()` evaluates a model and creates `preds.csv` in the repository `expe_log`. Use `ckpt_path` to specify which model you want to use.
 
