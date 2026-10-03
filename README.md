@@ -1,22 +1,34 @@
 # Fairness in AI
 
-This project implements different pre-processing and post-processing to reduce bias in model predictions on a dataset where the goal is to define if a patient is sick or not, using a chest X-ray.
+Measures and reduces the bias of a chest X-ray classifier that predicts whether a patient is sick. Bias is measured with the true and false positive rates of each group (age, sex, and both), and two families of methods try to reduce it:
 
-The only code made by me is in the file `main.py`, the other `.py` and `.ipynb` files were given to me as a starter for the project.
+* **Pre-processing**: reweighting the training samples by group, by group and label, or with the Kamiran and Calders method;
+* **Post-processing**: reject option classification and equalized odds, applied to the predictions of a trained model.
 
-# How to use it ?
+Each method is evaluated with the balanced and standard accuracies and the gaps between groups. The plots in `plots/` compare the rates before and after each method, and `RAPPORT.pdf` (in French) presents the full study.
 
-Download or replicate the environment `fairness-environment.yml`.
+## Data
 
-Using `train_classifier()` in `train_classifier.ipynb()` creates a new model, saved in a .ckpt extension in the repository `expe_log`.
-Using `pred_classifier()` in `train_classifier.ipynb()` evaluates a model and creates `preds.csv` in the repository `expe_log`. Use `ckpt_path` to specify which model you want to use.
+`selected_data/` holds a subset of the NIH ChestX-ray14 dataset (1,125 training and 375 validation images) and its metadata. The dataset is provided by the NIH Clinical Center (https://nihcc.app.box.com/v/ChestXray-NIHCC) and described in:
 
-Use `main.py` to use different pre-processing and post-processing methods. Pre-processing methods modify the weights in the file `metadata.csv`, which are then used when you train a model. Post-processing methods use the file `preds.csv` to adjust the predictions and then re-evaluate the performances and metrics. 
+> X. Wang, Y. Peng, L. Lu, Z. Lu, M. Bagheri, and R. M. Summers. ChestX-ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases. *CVPR*, 2017.
 
-The metrics used are the `True Positive Rate` and the `False Positive Rate` for the different categories concerned by a bias, and the accuracies given are the `balanced accuracy` and the `classic accuracy`.
+## Usage
 
-# Warnings
+```bash
+conda env create -f fairness_environment.yml
+```
 
-The models saved under a `ckpt` extension are quite heavy (+100Mo) and are therefore not available here, but the full results of each model are available in the `.txt` files and can be easily seen with the plots in the repository `plots`.
+* `train_classifier()` in `train_classifieur.ipynb` trains a model and saves a checkpoint in `expe_log/` (about 15 minutes).
+* `pred_classifier()` evaluates a checkpoint (set `ckpt_path`) and writes `expe_log/preds.csv` (about 5 minutes).
+* `main.py` runs the analysis: pre-processing methods update the sample weights in `metadata.csv` before training, and post-processing methods adjust `preds.csv`.
 
-`train_classifier()` can take up to 15 minutes and `pred_classifier()` up to 5 minutes.
+Checkpoints weigh over 100 MB and are not included.
+
+## Credits
+
+`train_classifieur.py` and `train_classifieur.ipynb` were provided as starter code. The bias analysis and mitigation methods are in `main.py`.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The starter code (`train_classifieur.py`, `train_classifieur.ipynb`) and the NIH images are not covered.
